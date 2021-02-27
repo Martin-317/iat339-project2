@@ -131,6 +131,23 @@ img{
 
 }
 
+/*Quantity Option Button*/
+.sizebtn{
+  padding: 10px 15px;
+  background-color: white;
+  color: #CECECE;
+  border: 2px solid #CECECE;
+  margin-bottom: 1.5rem;
+
+}
+
+.sizebtn:focus{
+
+  color: #6C6B6A;
+  border: 2px solid #6C6B6A;
+  outline:0;
+}
+
 
 
 
