@@ -1,0 +1,11 @@
+.wrapper{
+	width:clamp(17rem, 90vw, 75rem);
+	padding:0.5rem;
+	background-color: white;
+	margin:0 auto;
+
+	display:grid;
+ 	
+ 	
+ 	min-height:100vh;
+}

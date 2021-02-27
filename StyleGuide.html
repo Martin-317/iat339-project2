@@ -1,0 +1,194 @@
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Style Guide</title>
+
+	<link href="css/main.css" rel="stylesheet">
+	<link href="css/grid.css" rel="stylesheet">
+	<link href="css/pattern.css" rel="stylesheet">
+
+</head>
+
+<body>
+	<div class="nav_img" >
+		<header>
+			<nav class = "navfont">
+				<img src = "img/logo.png" alt="logoimage" width="82" height="57" class="left">
+				<div class = "navbtn_pos">
+					<a href="#">HOME</a>
+					<a href="#">SHOP</a>
+					<div class ="dropdown">
+						<button class="dropbtn">ABOUT</button>
+						<div class="dropdown-content">
+							<a href="#">ABOUT US</a>
+							<a href="#">FAQ</a>
+							<a href="#">ABOUT BEER</a>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<h1>P02 - Consolidated Pattern Library </h1>
+	</div>
+
+	<main class="wrapper">
+
+
+		<section id="intro" >
+			
+			<p>This page is a style guide for the beer store called Well-being Beer (WbB). This Styleguide is intended to show the interactive elements, text styling, modular pattern elements, and general styling of the site.</p>
+
+
+
+
+			<!-- Navigation on StyleGuide Page-->
+			<p><strong>On this page:</strong></p>
+			<nav class="pagenav">
+				<a href="#interactive">Interactive Element</a>
+				<a href="#text">Text Element</a>
+				<a href="#pattern">Modular Element</a>
+			</nav>
+		</section>
+
+		<section id=interactive>
+			<h2>INTERACTIVE ELEMENTS</h2>
+
+			<!--In-Text Link-->
+			<div>
+				<h3>In-Text Link</h3>
+
+				<p>Any more question? Please <a class ="intextlink" href="#contact">contact us</a> for further information!</p>
+
+
+				<div class="samplecode">
+					<h4>Description:</h4>
+					<p>text link will be used to lead audiences for more information. The links are going to be highlighted into yellow text</p>
+
+					<h4>Designed by:</h4>
+					<p>Chae Yeon Park and inspired from Paul's Tutorial</p>
+
+
+
+
+					<h4>CSS Code:</h4>
+					.intextlink
+
+					<h4>Sample Code:</h4>
+					&lt;p&gt;Any more question? Please &lt;a class ="intextlink" href="#contact"&gt;contact us&lt;/a&gt; for further information!&lt;/p&gt;
+				</div>
+			</div>
+
+
+			<!--Button-->
+			<div>
+					<!--Submit and Reset Buttons-->
+					<h3>Submit/Reset Buttons</h3>
+
+					<button class ="button brown_btn">
+						SUBMIT
+					</button>
+					<button class = "button yellow_btn">
+						RESET
+					</button>
+
+					<div class="samplecode">
+
+						<h4>Description:</h4>
+						<p>Same as Action Buttons, will apply on triggering actions in the site. Will be apply on Text input sections such as contact or review comments section.</p>
+
+
+						<h4>Designed by:</h4>
+						<p>Chae Yeon Park and inspired from W3School.com</p>
+
+						<h4>CSS Code:</h4>
+						.button .button1 .button2
+
+
+						<h4>Sample Code:</h4>
+						&lt;button class ="button button1"&gt;SUBMIT&lt;/button&gt;
+						&lt;button class = "button button2"&gt;RESET&lt;/button&gt;
+					</div>
+				</div>
+
+
+
+			<div>
+				<!--Color Swatchess-->
+				<h3>Color Swatch</h3>
+				<!--The color swatches are temporlary only in text. Will add colors by using background-color from CSS -->
+				<div id="yellow">
+					<p class ="inBlockText">#FFAF34</p>  <!--yellow-->
+				</div>
+				<div id="red">
+					<p class ="inBlockText">#B75142</p>	<!--red-->
+				</div>
+				<div id="darkbrown">
+					<p class ="inBlockText">#3A2E2A</p>	<!--dark brown-->
+				</div>
+				<div id="darkgrey">
+					<p class ="inBlockText">#6C6B6A</p>	<!--dark grey-->
+				</div>
+				<div id="lightgrey">
+					<p class ="inBlockText">#E9E8E8</p>	<!--light grey-->
+				</div>
+				<div id="white">
+					<p class ="inBlockText2">#F6F6F6</p>	<!--lightes grey-->
+				</div>
+
+
+				<div class="samplecode">
+
+					<h4>Description:</h4>
+					<p> The yellow and dark brown are the priory colors and rests are secondary color for highlighing significant information.</p>
+
+					<h4>CSS Code:</h4>
+					.inBlockText .inBlockText2 #yellow #red #darkbrown #darkgrey
+					#lightgrey #white
+
+
+					<h4>Sample Code</h4>
+
+					&lt;div id="yellow"&gt;
+					&lt;p class ="inBlockText">#FFAF34&lt;/p&gt;  <!--yellow-->
+					&lt;/div&gt;
+					&lt;div id="red"&gt;
+					&lt;p class ="inBlockText">#B75142&lt;/p&gt;	<!--red-->
+					&lt;/div&gt;
+					&lt;div id="darkbrown"&gt;
+					&lt;p class ="inBlockText">#3A2E2A&lt;/p&gt;	<!--dark brown-->
+					&lt;/div&gt;
+					&lt;div id="darkgrey"&gt;
+					&lt;p class ="inBlockText">#6C6B6A&lt;/p&gt;	<!--dark grey-->
+					&lt;/div&gt;
+					&lt;div id="lightgrey"&gt;
+					&lt;p class ="inBlockText">#E9E8E8&lt;/p&gt;	<!--light grey-->
+					&lt;/div&gt;
+					&lt;div id="white"&gt;
+					&lt;p class ="inBlockText2">#F6F6F6&lt;/p&gt;	<!--lightes grey-->
+					&lt;/div&gt;
+
+
+
+				</div>
+
+			</div>
+
+			
+
+
+
+
+
+
+
+
+
+
+
+		</section>
+
+	</main>
+	
+</body>
