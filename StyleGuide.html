@@ -344,7 +344,7 @@
 			<h2> MODULAR ELEMENT</h2>
 
 			<!----------PRODUCT DETAIL-------->
-			
+
 			<h3 class="block-1-half">UI Module for Product Detail</h3>
 			<div class="grid-container">
 				<div class="block-1-half">
@@ -473,8 +473,10 @@
 
 
 
-				<!------------------------PRODUCT LIST-------------------->
+				
 				<div class="grid-container">
+
+					<!------------------------PRODUCT LIST-------------------->
 					<div class="block-1-half" >
 					<h3>Product List</h3>
 					<div class="itemlist">
@@ -487,7 +489,7 @@
 
 
 
-					<div class="samplecode" >
+					<div class="description" >
 						<h4>Description</h4>
 						<p>This module is filtering engine that help audience for searching beers by their preferences like prices, alcohol levels, or package size. Will be placed on the side bar or Product list pages. Quick Add Module will be appeared when quick add button is clicked</p> 
 
@@ -495,10 +497,10 @@
 						<p>Chae Yeon Park and inspired from W3School.com</p>
 
 						<h4>CSS Code:</h4>
-						.itemlist .sub3 .button .button1 .shopbtn .quickbtn
+						<p class="codetext">.itemlist .sub3 .button .button1 .shopbtn .quickbtn</p>
 
 						<h4>Sampe Code</h4>
-
+						<p class="codetext">
 						&lt;div class="itemlist"&gt;
 						&lt;img src = "img/beer1.png" alt="bottleimage" width="264" height ="306"&gt;
 						&lt;h3&gt;Outbound(Pale)&lt;/h3&gt;
@@ -506,7 +508,73 @@
 						&lt;button class ="button button1 shopbtn">SHOP NOW&lt;/button&gt;&lt;br&gt;
 						&lt;button class="button quickbtn"&gt;QUICK ADD&lt;/button&gt;
 						&lt;/div&gt;
+					</p>
 					</div>
+				</div>
+
+
+
+				<!--------------------------Quick Add To Cart Module-------------------------->
+				<div class="block-2-half">
+					<h3>Quick Add Module</h3>
+					<!--DropDown Selection Reference: https://www.w3schools.com/tags/tag_select.asp-->
+					<div class="quickadd">
+						<div>
+							<label class ="labels-in-quickadd" for="size">PACKAGE SIZE</label><br>
+							<select class="select" name="beersize" id="size">
+								<option value="12oz">12 oz CAN</option>
+								<option value="18oz">18 oz CAN</option>
+								<option value="22oz">22 oz BTL</option>
+								<option value="750ml">750 ml BTL</option>
+							</select>
+						</div>
+
+						<!--QUANTITY OPTION-->
+						<div>
+							<label class ="labels-in-quickadd" for="quantity">QUANTITY</label><br>
+							<input class="quanti" type="number" id="quantity" name="beerquantity" min="1">
+						</div><br>
+
+						<button class ="button yellow_btn">ADD TO CART</button>
+					</div>
+
+
+					<div class="description">
+						<h4>Description:</h4>
+						<p>This module pattern will be displayed when users click "Quick Add" button on product list. It is for instantly add products into cart without vising product detail pages.</p>
+
+						<h4>Designed by:</h4>
+						<p>Chae Yeon Park and inspired from W3School.com</p>
+
+						<h4>CSS Code:</h4>
+						<p class="codetext">.quickadd .label2 .select .quanti .button .button2</p>
+
+						<h4>Sample Code:</h4>
+						<p class="codetext">
+						&lt;div class="quickadd"&gt;
+						&lt;div&gt;
+						&lt;label class ="label2" for="size">PACKAGE SIZE&lt;/label&gt;
+						&lt;select class="select" name="size" id="size"&gt;
+						&lt;option value="12oz"&gt;12 oz CAN&lt;/option&gt;
+						&lt;option value="18oz"&gt;18 oz CAN&lt;/option&gt;
+						&lt;option value="22oz"&gt;22 oz BTL&lt;/option&gt;
+						&lt;option value="750ml"&gt;750 ml BTL&lt;/option&gt;
+						&lt;/select&gt;
+						&lt;/div&gt;
+
+						&lt;div&gt;
+						&lt;label class ="label2" for="quantity"&gt;QUANTITY&lt;/label&gt;
+						&lt;input class="quanti" type="number" id="quantity" name="quantity" min="1"&gt;
+						&lt;/div&gt;&lt;br&gt;
+
+						&lt;button class ="button button2"&gt;ADD TO CART&lt;/button&gt;
+
+						&lt;/div&lt;
+					</p>
+					</div>
+
+
+
 				</div>
 			</div>
 

@@ -270,3 +270,23 @@ ul#infolist li {
 .shopbtn{
   width: 83%;
 }
+
+/*-------------------------------------------------------QUICK ADD-------------------------------------------------------*/
+.quickadd{
+ background-color: #3A2E2A; /* dark Brown*/
+ color: white;
+ text-align: center;
+ width:15rem;
+ height: 18rem;
+ border-radius: 25px;
+ padding: 1rem;
+ line-height: 230%;
+}
+
+
+.labels-in-quickadd{
+  font-family: Oswald, Arial, sans-serif;
+  font-size: 1.2rem;
+  color: #FFAF34;
+
+}
