@@ -158,12 +158,6 @@ ul,ol{
 
 }
 
-.review_button{
-	background-color: #3A2E2A;	
-	color: white;
-	border-radius: 5px;
-}
-
 /*Quantity Option Button*/
 .sizebtn{
   padding: 10px 15px;
@@ -192,6 +186,10 @@ ul,ol{
    cursor: pointer;
    line-height: 1.1;
  }
+
+.block-1-half button{
+	margin-top: 2rem;
+}
 
 /*-----------------------------------------Text Input-----------------------------------------------*/
 .txtinput{

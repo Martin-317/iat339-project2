@@ -368,7 +368,10 @@
 					<!--SIZE OPTION BUTTON-->
 					<div>
 						<!--Radio Buttons Reference: https://www.w3schools.com/w3css/w3css_input.asp-->
-						<label>Package Size</label><br>
+						<div>
+							<label>Package Size</label>
+						</div>
+
 
 
 						<button class="sizebtn">12 oz CAN</button>
@@ -382,12 +385,15 @@
 					<!--Reference: https://www.w3schools.com/tags/att_input_type_number.asp-->
 					<div>
 
-						<label for="purchasequantity">Quantity</label><br>
+						<div>
+							<label for="purchasequantity">Quantity</label>
+						</div>
+
 						<input class="quanti" type="number" id="purchasequantity" name="beerquantity" min="1">
 
-					</div><br>
+					</div>
 
-
+					
 					<button class = "button brown_btn purchase-button-size ">ADD TO CART</button>
 				</div>
 			</div>
@@ -465,7 +471,7 @@
 						<img class="item-image" src = "img/itemimg_1.png" alt="bottleimage" width="264" height ="306">
 						<h3>Outbound(Pale)</h3>
 						<h4 class="price-txt">$5.00</h4>
-						<button class ="button brown_btn shopbtn">SHOP NOW</button><br>
+						<button class ="button brown_btn shopbtn">SHOP NOW</button>
 						<button class="button quickbtn">QUICK ADD</button>
 					</div>
 					
@@ -476,7 +482,7 @@
 						<img class="item-image" src = "img/itemimg_2.png" alt="bottleimage" width="264" height ="306">
 						<h3>Two Roots</h3>
 						<h4 class="price-txt">$4.25</h4>
-						<button class ="button brown_btn shopbtn">SHOP NOW</button><br>
+						<button class ="button brown_btn shopbtn">SHOP NOW</button>
 						<button class="button quickbtn">QUICK ADD</button>
 					</div>
 					
@@ -487,7 +493,7 @@
 						<img class="item-image" src = "img/itemimg_3.png" alt="bottleimage" width="264" height ="320">
 						<h3>Gruvi (Peach Ale)</h3>
 						<h4 class="price-txt">$5.00</h4>
-						<button class ="button brown_btn shopbtn">SHOP NOW</button><br>
+						<button class ="button brown_btn shopbtn">SHOP NOW</button>
 						<button class="button quickbtn">QUICK ADD</button>
 					</div>
 				
@@ -524,7 +530,7 @@
 					<!--DropDown Selection Reference: https://www.w3schools.com/tags/tag_select.asp-->
 					<div class="quickadd">
 						<div>
-							<label class ="labels-in-quickadd" for="size">PACKAGE SIZE</label><br>
+							<label class ="labels-in-quickadd" for="size">PACKAGE SIZE</label>
 							<select class="select" name="beersize" id="size">
 								<option value="12oz">12 oz CAN</option>
 								<option value="18oz">18 oz CAN</option>
@@ -535,9 +541,12 @@
 
 						<!--QUANTITY OPTION-->
 						<div>
-							<label class ="labels-in-quickadd" for="quantity">QUANTITY</label><br>
+							<div>
+								<label class ="labels-in-quickadd" for="quantity">QUANTITY</label>
+							</div>
+
 							<input class="quanti" type="number" id="quantity" name="beerquantity" min="1">
-						</div><br>
+						</div>
 
 						<button class ="button yellow_btn">ADD TO CART</button>
 					</div>
