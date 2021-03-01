@@ -158,6 +158,12 @@ ul,ol{
 
 }
 
+.review_button{
+	background-color: #3A2E2A;	
+	color: white;
+	border-radius: 5px;
+}
+
 /*Quantity Option Button*/
 .sizebtn{
   padding: 10px 15px;
@@ -248,4 +254,6 @@ label{
 
 
 
-
+.navbtn_pos {
+	display: inline;
+}

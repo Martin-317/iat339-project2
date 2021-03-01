@@ -68,11 +68,85 @@ header{
 
 }
 
+#QA {
+	background-color: #CECECE;
+	display: grid;
+	grid-template-columns:repeat(8, 1fr);
+	grid-template-rows: 5rem 5rem 5rem 15rem 5rem;
+}
+
+#QA h2{
+	grid-row-start: 1;
+	grid-row-end: 2;
+	grid-column-start: 2;
+	grid-column-end: 8;
+}
+
+#rate_star{
+	margin-top: 1rem;
+	margin-left: 6rem;
+	grid-row-start: 2;
+	grid-row-end: 3;
+	grid-column-start: 4;
+	grid-column-end: 6;
+}
+
+#fname{
+	grid-row-start: 3;
+	grid-row-end: 4;
+	grid-column-start: 2;
+	grid-column-end: 8;	
+}
+
+input[id="name"]{
+	width: 49%;
+}
+
+#freview{
+	grid-row-start: 4;
+	grid-row-end: 5;
+	grid-column-start: 2;
+	grid-column-end: 8;	
+}
+
+input[id="review"]{
+	width: 100%;
+	height: 100%;
+}
+
+#QA button{
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	background-color: #3A2E2A;	
+	color: white;
+	border-radius: 5px;
+	grid-row-start: 5;
+	grid-row-end: 6;
+	grid-column-start: 7;
+	grid-column-end: 8;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+#QA button:hover{
+	background-color: white;
+	color: black;
+}
+
+/* #QA button :hover{
+	background-color: white;
+	color: black;
+} */
+
+
 
 /*--------------------------------------------------Grid for Product Details----------------------------------------------------*/
 .priceposition{
 	grid-column:1/9;
 	grid-column-end: 3;
+	width: 100%;
 }
 
 .starposition{
