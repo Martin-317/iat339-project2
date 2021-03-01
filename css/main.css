@@ -265,3 +265,25 @@ label{
 	padding-right: 1rem;
 	padding-bottom: 1rem;
 }
+
+/*-----------------------------------------Footer-----------------------------------------------*/
+/*left.right margin are 3rem*/
+/*Top margin 2rem*/
+
+footer h5,footer h3,footer p{
+	color: white;
+}
+
+#footer_logo_part{
+	margin-top: 2rem;
+	margin-left: 3rem;
+
+}
+
+#footer_navigation{
+	margin-top: 3rem;
+}
+
+#footer_navigation h3{
+	margin-top: 0;
+}
