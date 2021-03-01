@@ -1,7 +1,10 @@
 body{
 	font-family:Work Sans,Arial,sans-serif;
 }
-
+/*----------------------------------------------General class---------------------------------------------------*/
+.inline{
+	display: inline;
+}
 
 /*----------------------------------------------Headers---------------------------------------------------*/
 
@@ -270,6 +273,12 @@ label{
 /*left.right margin are 3rem*/
 /*Top margin 2rem*/
 
+footer a{
+	text-decoration: none;
+	color: white;
+	
+}
+
 footer h5,footer h3,footer p{
 	color: white;
 }
@@ -281,9 +290,28 @@ footer h5,footer h3,footer p{
 }
 
 #footer_navigation{
-	margin-top: 3rem;
+	margin-top: 2rem;
 }
 
 #footer_navigation h3{
+	margin-top: 0;
+}
+
+#footer_navigation a{
+	display: block;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+#footer_socialMedia div{
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+#footer_Customer{
+	margin-top: 2rem;
+}
+
+#footer_Customer h3{
 	margin-top: 0;
 }
