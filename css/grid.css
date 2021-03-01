@@ -68,6 +68,7 @@ header{
 
 }
 
+
 /*--------------------------------------------------Grid for Product Details----------------------------------------------------*/
 .priceposition{
 	grid-column:1/9;
@@ -120,9 +121,9 @@ header{
 		grid-column:1/9;
 	}
 
-	.grid3{
-		grid-column:1/9;
-		margin-top: 3rem;
+	.itemlist{
+		grid-column-start:1;
+		margin-top: 2rem;
 		grid-column-end: 9;
 	}
 
