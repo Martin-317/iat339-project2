@@ -255,3 +255,13 @@ label{
 .navbtn_pos {
 	display: inline;
 }
+
+/*-----------------------------------------Filter-----------------------------------------------*/
+#filter{
+	width: 15rem;
+	border: 0.5px solid black;
+	margin-top: 3rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	padding-bottom: 1rem;
+}
