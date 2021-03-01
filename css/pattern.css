@@ -271,8 +271,28 @@ ul#infolist li {
  
 }
 
+.price-txt{
+  font-family:Bitter, Arial, sans-serif;
+  font-size:1rem;
+  font-weight: lighter;
+  color:#3A2E2A;
+}
+
 .shopbtn{
   width: 83%;
+}
+
+.item-image{
+  opacity: 1;
+  display: block;
+  width:100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.itemlist:hover .item-image {
+  opacity: 0.3;
 }
 
 /*-------------------------------------------------------QUICK ADD-------------------------------------------------------*/
