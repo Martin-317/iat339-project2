@@ -6,6 +6,9 @@ body{
 	display: inline;
 }
 
+
+
+
 /*----------------------------------------------Headers---------------------------------------------------*/
 
 h1{
@@ -59,7 +62,7 @@ p {
 	font-family:Work Sans, Arial, sans-serif;
 	font-size:1rem;
 	display: block;
-	max-width: 45rem;
+	/* max-width: 45rem; */
   
 }
 
@@ -344,3 +347,4 @@ footer h5,footer h3,footer p{
 #footer_Customer h3{
 	margin-top: 0;
 }
+
