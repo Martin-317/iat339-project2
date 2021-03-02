@@ -198,7 +198,7 @@ input[id="review"]{
 	grid-column-gap:4rem;
 }
 
-.card-row-container2{
+.shop-page-grid{
 	grid-column:1/9;
 	display:grid;
 	grid-template-columns:0.5fr 1fr 1fr 1fr;

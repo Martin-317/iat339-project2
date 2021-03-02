@@ -61,9 +61,11 @@ h4{
 p {
 	font-family:Work Sans, Arial, sans-serif;
 	font-size:1rem;
-	display: block;
-	/* max-width: 45rem; */
-  
+	display: block;  
+}
+
+.para-max-width{
+	width:clamp(45ch, 70%, 68ch);
 }
 
 img{
@@ -82,6 +84,11 @@ ul,ol{
 
 .header_align{
 	text-align:center;
+}
+
+/*-----------------------------------------logo-----------------------------------------------*/
+.logo{
+	margin: 1rem;
 }
 
 /*----------------------------------------------In Text Link---------------------------------------------------*/
@@ -108,7 +115,7 @@ ul,ol{
 	padding: 1rem;
 	background-color: #F6F6F6;
  	 margin-top: 1rem;
- 	 max-width: 97%;
+ 	 max-width: 100%;
 
 }
 
@@ -262,42 +269,7 @@ label{
 	display: inline;
 }
 
-/*-----------------------------------------Filter-----------------------------------------------*/
-#filter{
-	width: 15rem;
-	border: 0.5px solid black;
-	margin-top: 3rem;
-	padding-left: 1rem;
-	padding-right: 1rem;
-	padding-bottom: 1rem;
-}
 
-#filter h2{
-	font-family: Bitter, Arial, sans-serif;
-	text-align: left;
-}
-
-#filter input{
-	-webkit-appearance: none;
-    width: 100%;
-    height: 10px;
-    border-radius: 5px;
-    background: #d3d3d3;
-    outline: none;
-    opacity: 0.7;
-	-webkit-transition: .2s;
-    transition: opacity .2s;
-}
-
-#filter input::-webkit-slider-thumb {
-    -webkit-appearance: none;
-    appearance: none;
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    background: #FFAF34;
-    cursor: pointer;
-}
 
 
 
@@ -347,4 +319,10 @@ footer h5,footer h3,footer p{
 #footer_Customer h3{
 	margin-top: 0;
 }
+
+/*----------------------------------------Citation-----------------------------------------*/
+.citation-align{
+  text-align: center;
+  display: block;
+ }
 

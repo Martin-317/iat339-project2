@@ -11,15 +11,15 @@
 
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Code+Pro">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Work+Sans">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bitter">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Work+Sans">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bitter">
 </head>
 <!--------------------------------------- Main Navigation------------------------------------------------>
 <body>
 	<div class="nav_img" >
 		<header>
 			<nav class = "navfont">
-				<img src = "img/logo.png" alt="logoimage" width="82" height="57" class="left">
+				<img class ="logo" src = "img/logo.png" alt="logoimage" width="82" height="57" class="left">
 				<div class = "navbtn_pos">
 					<a href="#">HOME</a>
 					<a href="#">SHOP</a>
@@ -44,7 +44,7 @@
 
 		<section id="intro" >
 			
-			<p>This page is a style guide for the beer store called Well-being Beer (WbB). This Styleguide is intended to show the interactive elements, text styling, modular pattern elements, and general styling of the site.</p>
+			
 
 
 
@@ -56,7 +56,10 @@
 				<a href="#interactive">Interactive Element</a>
 				<a href="#text">Text Element</a>
 				<a href="#pattern">Modular Element</a>
+				<a href="#grid_structure">Grid Structure</a>
 			</nav>
+
+			<p class="para-max-width">This page is a style guide for the beer store called Well-being Beer (WbB). This Styleguide is intended to show the interactive elements, text styling, modular pattern elements, and general styling of the site.</p>
 		</section>
 
 
@@ -66,6 +69,7 @@
 			<h2>INTERACTIVE ELEMENTS</h2>
 
 			<!--In-Text Link-->
+			
 			<div>
 				<h3>In-Text Link</h3>
 
@@ -76,7 +80,7 @@
 					<h4>Description:</h4>
 					<p>text link will be used to lead audiences for more information. The links are going to be highlighted into yellow text</p>
 
-				
+
 					<h4>CSS Code:</h4>
 					<p class="codetext">.intextlink</p>
 
@@ -85,59 +89,62 @@
 				</div>
 			</div>
 
+			<div class="grid-container">
+				<!--Button-->
+				<div class="block-1-half">
+					<h3>Buttons</h3>
 
-			<!--Button-->
-			<div>
-				<h3>Buttons</h3>
+					<button class ="button brown_btn">SUBMIT</button>
+					<button class = "button yellow_btn">RESET</button>
+					<button class="sizebtn">12 oz CAN</button>
 
-				<button class ="button brown_btn">SUBMIT</button>
-				<button class = "button yellow_btn">RESET</button>
-				<button class="sizebtn">12 oz CAN</button>
+					<div class="description">
 
-				<div class="description">
-
-					<h4>Description:</h4>
-					<p>Buttons will apply on triggering actions in the site. Will be apply on Text input sections such as contact or review comments section.</p>
-
-
-					<h4>CSS Code:</h4>
-					<p class="codetext">.button .brown_btn .yellow_btn .sizebtn</p>
+						<h4>Description:</h4>
+						<p>Buttons will apply on triggering actions in the site. Will be apply on Text input sections such as contact or review comments section.</p>
 
 
-					<h4>Sample Code:</h4>
-					<p class="codetext">&lt;button class ="button brown_btn"&gt;SUBMIT&lt;/button&gt;
-						&lt;button class = "button yellow_btn"&gt;RESET&lt;/button&gt;
-					&lt;button class = "sizebtn"&gt;12 oz CAN&lt;/button&gt;</p>
-				</div>
-			</div>
-
-			<!--Text Input Field-->
-			<div>
-
-				<h3>Text Input Field</h3> 
-				<label>Name:</label><br>
+						<h4>CSS Code:</h4>
+						<p class="codetext">.button .brown_btn .yellow_btn .sizebtn</p>
 
 
-				<input type="text" id="first-name" class="txtinput" placeholder="First Name">
-				<input type="text"  id="last-name" class="txtinput" placeholder="Last Name">
-
-
-
-				<div class="description">
-
-					<h4>Description:</h4>
-					<p>Will be apply on text submission on the e-commerce such as Contact modules or Purchase module. </p>
-
-					<h4>CSS Code:</h4>
-					<p class="codetext">.input</p>
-
-					<h4>Sample Code:</h4>
-					<!--https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_input_test-->
-					<p class="codetext">&lt;label&gt;Name:&lt;/label&gt;
-						&lt;input type="text" class="input" placeholder="First Name"&gt;
-					&lt;input type="text" class="input" placeholder="Last Name"&gt;</p>
+						<h4>Sample Code:</h4>
+						<p class="codetext">&lt;button class ="button brown_btn"&gt;SUBMIT&lt;/button&gt;
+							&lt;button class = "button yellow_btn"&gt;RESET&lt;/button&gt;
+						&lt;button class = "sizebtn"&gt;12 oz CAN&lt;/button&gt;</p>
+					</div>
 				</div>
 
+
+
+				<!--Text Input Field-->
+				<div  class="block-2-half">
+
+					<h3>Text Input Field</h3> 
+					<label>Name:</label><br>
+
+
+					<input type="text" id="first-name" class="txtinput" placeholder="First Name">
+					<input type="text"  id="last-name" class="txtinput" placeholder="Last Name">
+
+
+
+					<div class="description">
+
+						<h4>Description:</h4>
+						<p>Will be apply on text submission on the e-commerce such as Contact modules or Purchase module. </p>
+
+						<h4>CSS Code:</h4>
+						<p class="codetext">.input</p>
+
+						<h4>Sample Code:</h4>
+						<!--https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_input_test-->
+						<p class="codetext">&lt;label&gt;Name:&lt;/label&gt;
+							&lt;input type="text" class="input" placeholder="First Name"&gt;
+						&lt;input type="text" class="input" placeholder="Last Name"&gt;</p>
+					</div>
+
+				</div>
 			</div>
 
 
@@ -234,7 +241,7 @@
 						&lt;h1&gt;MAIN HEADER&lt;/h1&gt;
 						&lt;h2&gt;SUB HEADER 1&lt;/h2&gt;
 						&lt;h3&gt;SUB HEADER 2&lt;/h3&gt;
-					&lt;h4&gt;SUB HEADER 3&lt;/h4&gt;
+						&lt;h4&gt;SUB HEADER 3&lt;/h4&gt;
 					</p>
 				</div>
 				
@@ -242,89 +249,89 @@
 
 			<!--Paragraph-->
 			<div>
-					<!--Paragraph-->
-					<h3>Paragraph Sample</h3>
-					<p> Looking for where to find healthier and fresh craft beer releases? You can find products in <strong>WbB</strong> including a wider selection of products with less sugar, calories, carbs — even low and no-alcohol options to suit every lifestyle! </p>
+				<!--Paragraph-->
+				<h3>Paragraph Sample</h3>
+				<p class="para-max-width"> Looking for where to find healthier and fresh craft beer releases? You can find products in <strong>WbB</strong> including a wider selection of products with less sugar, calories, carbs — even low and no-alcohol options to suit every lifestyle! </p>
 
-					<div class="description">
-						<h4>Description</h4>
-						<p>stylized with regular Work Sans fonts and dark brown color (#3A2E2A)</p>
+				<div class="description">
+					<h4>Description</h4>
+					<p>stylized with regular Work Sans fonts and dark brown color (#3A2E2A)</p>
 
-						<h4>CSS Code:</h4>
-						.para
+					<h4>CSS Code:</h4>
+					.para
 
-						<h4>Sample Code:</h4>
-						<p class="codetext">
+					<h4>Sample Code:</h4>
+					<p class="codetext">
 						&lt;p&gt;Looking for where to find healthier and fresh craft beer releases? You can find products in &lt;strong&gt;WbB &lt;/strong&gt; including a wider selection of products with less sugar, calories, carbs — even low and no-alcohol option s to suit every lifestyle! 
 						&lt;/p&gt;
-						</p>
-					</div>
+					</p>
 				</div>
+			</div>
 
 			<div class="grid-container">
 
-			<!--Bulleet List-->
-			<div class="block-1-half">
-				<h3>Bulleted Lists</h3>
-				<ul>
-					<li>List 1</li>
-					<li>List 2</li>
-					<li>List 3</li>
-				</ul>
+				<!--Bulleet List-->
+				<div class="block-1-half">
+					<h3>Bulleted Lists</h3>
+					<ul>
+						<li>List 1</li>
+						<li>List 2</li>
+						<li>List 3</li>
+					</ul>
 
 
-				<div class="description">
-					<h4>Description</h4>
-					<p>Bulleted list will be used in Beer information page or detailed product description</p>
+					<div class="description">
+						<h4>Description</h4>
+						<p>Bulleted list will be used in Beer information page or detailed product description</p>
 
-					<h4>CSS Code:</h4>
-					<p class="codetext">stylized under default &lt;ul&gt; and &lt;li&gt;</p>
+						<h4>CSS Code:</h4>
+						<p class="codetext">stylized under default &lt;ul&gt; and &lt;li&gt;</p>
 
-					<h4>Sample Code:</h4>
-					<p class="codetext">
-						&lt;ul&gt;
-						&lt;li&gt;List 1&lt;/li&gt;
-						&lt;li&gt;List 2&lt;/li&gt;
-						&lt;li&gt;List 3&lt;/li&gt;
-					&lt;/ul&gt;
-				</p>
+						<h4>Sample Code:</h4>
+						<p class="codetext">
+							&lt;ul&gt;
+							&lt;li&gt;List 1&lt;/li&gt;
+							&lt;li&gt;List 2&lt;/li&gt;
+							&lt;li&gt;List 3&lt;/li&gt;
+							&lt;/ul&gt;
+						</p>
+					</div>
+
 				</div>
 
-			</div>
+
+				<div class="block-2-half">
+					<h3>Numbered Lists</h3>
+					<ol>
+						<li>List 1</li>
+						<li>List 2</li>
+						<li>List 3</li>
+					</ol>
+
+					<div class="description">
+
+						<h4>Description</h4>
+						<p>Numbered lists will be used in beer information page.</p>
 
 
-			<div class="block-2-half">
-				<h3>Numbered Lists</h3>
-				<ol>
-					<li>List 1</li>
-					<li>List 2</li>
-					<li>List 3</li>
-				</ol>
-
-				<div class="description">
-
-					<h4>Description</h4>
-					<p>Numbered lists will be used in beer information page.</p>
+						<h4>CSS Code:</h4>
+						<p class="codetext">stylized under default &lt;ol&gt; and &lt;li&gt;</p>
 
 
-					<h4>CSS Code:</h4>
-					<p class="codetext">stylized under default &lt;ol&gt; and &lt;li&gt;</p>
-
-
-					<h4>Sample Code:</h4>
-					<p class="codetext">
-						&lt;ol&gt;
-						&lt;li&gt;List 1&lt;/li&gt;
-						&lt;li&gt;List 2&lt;/li&gt;
-						&lt;li&gt;List 3&lt;/li&gt;
-					&lt;/ol&gt;
-				</p>
+						<h4>Sample Code:</h4>
+						<p class="codetext">
+							&lt;ol&gt;
+							&lt;li&gt;List 1&lt;/li&gt;
+							&lt;li&gt;List 2&lt;/li&gt;
+							&lt;li&gt;List 3&lt;/li&gt;
+							&lt;/ol&gt;
+						</p>
+					</div>
 				</div>
 			</div>
-		</div>
 		</section>
 
-<!---------------------------------------- MODULAR ELEMENT ------------------------------------------------->
+		<!---------------------------------------- MODULAR ELEMENT ------------------------------------------------->
 		<section id="pattern">
 			<h2> MODULAR ELEMENT</h2>
 
@@ -403,16 +410,16 @@
 
 
 
-				<div class="full">
-					<div class="description">
-						
-						<h4>CSS Code:</h4>
-						<p class="codetext">
-						.card-row-container .full .priceposition .starposition .clip-star .clip-star2 .table .descriptname .descriptinfo .sizebtn .quanti .button .button1 #horizontal-list
-						</p>
+			<div class="full">
+				<div class="description">
 
-						<h4>Sample Code</h4>
-						<p class="codetext">
+					<h4>CSS Code:</h4>
+					<p class="codetext">
+						.card-row-container .full .priceposition .starposition .clip-star .clip-star2 .table .descriptname .descriptinfo .sizebtn .quanti .button .button1 #horizontal-list
+					</p>
+
+					<h4>Sample Code</h4>
+					<p class="codetext">
 						&lt;div class="block1"&gt;
 						&lt;img src = "img/gruvirose.png" alt="bottleimage" width="500" height ="557"&gt;
 						&lt;/div&gt;
@@ -456,18 +463,18 @@
 						&lt;button class = "button button1 "&gt;ADD TO CART&lt;/button&gt;
 						&lt;/div&gt;
 
-						</p>
-					</div> 
-				</div>
+					</p>
+				</div> 
+			</div>
 
 
 
-				
-				<div class="grid-container">
 
-					<!---------------------------------PRODUCT LIST------------------------------->
-					<h3 class="full">Product List</h3>
-					<div class="card-row-container">
+			<div class="grid-container">
+
+				<!---------------------------------PRODUCT LIST------------------------------->
+				<h3 class="full">Product List</h3>
+				<div class="card-row-container">
 					
 					
 					<div class="itemlist">
@@ -479,7 +486,7 @@
 					</div>
 					
 
-						
+
 					
 					<div class="itemlist">
 						<img class="item-image" src = "img/itemimg_2.png" alt="bottleimage" width="264" height ="306">
@@ -490,7 +497,7 @@
 					</div>
 					
 
-						
+
 					
 					<div class="itemlist">
 						<img class="item-image" src = "img/itemimg_3.png" alt="bottleimage" width="264" height ="320">
@@ -499,20 +506,20 @@
 						<button class ="button brown_btn shopbtn">SHOP NOW</button>
 						<button class="button quickbtn">QUICK ADD</button>
 					</div>
-				
-
-					</div>
 
 
-					<div class="full description" >
-						<h4>Description</h4>
-						<p>This module is filtering engine that help audience for searching beers by their preferences like prices, alcohol levels, or package size. Will be placed on the side bar or Product list pages. Quick Add Module will be appeared when quick add button is clicked</p> 
+				</div>
 
-						<h4>CSS Code:</h4>
-						<p class="codetext">.itemlist .sub3 .button .button1 .shopbtn .quickbtn</p>
 
-						<h4>Sampe Code</h4>
-						<p class="codetext">
+				<div class="full description" >
+					<h4>Description</h4>
+					<p>This module is filtering engine that help audience for searching beers by their preferences like prices, alcohol levels, or package size. Will be placed on the side bar or Product list pages. Quick Add Module will be appeared when quick add button is clicked</p> 
+
+					<h4>CSS Code:</h4>
+					<p class="codetext">.itemlist .sub3 .button .button1 .shopbtn .quickbtn</p>
+
+					<h4>Sampe Code</h4>
+					<p class="codetext">
 						&lt;div class="itemlist"&gt;
 						&lt;img src = "img/beer1.png" alt="bottleimage" width="264" height ="306"&gt;
 						&lt;h3&gt;Outbound(Pale)&lt;/h3&gt;
@@ -521,9 +528,9 @@
 						&lt;button class="button quickbtn"&gt;QUICK ADD&lt;/button&gt;
 						&lt;/div&gt;
 					</p>
-					</div>
+				</div>
 				
-			
+
 
 
 
@@ -551,6 +558,7 @@
 							<input class="quanti" type="number" id="quantity" name="beerquantity" min="1">
 						</div>
 
+
 						<button class ="button yellow_btn">ADD TO CART</button>
 					</div>
 
@@ -565,66 +573,66 @@
 
 						<h4>Sample Code:</h4>
 						<p class="codetext">
-						&lt;div class="quickadd"&gt;
-						&lt;div&gt;
-						&lt;label class ="label2" for="size">PACKAGE SIZE&lt;/label&gt;
-						&lt;select class="select" name="size" id="size"&gt;
-						&lt;option value="12oz"&gt;12 oz CAN&lt;/option&gt;
-						&lt;option value="18oz"&gt;18 oz CAN&lt;/option&gt;
-						&lt;option value="22oz"&gt;22 oz BTL&lt;/option&gt;
-						&lt;option value="750ml"&gt;750 ml BTL&lt;/option&gt;
-						&lt;/select&gt;
-						&lt;/div&gt;
+							&lt;div class="quickadd"&gt;
+							&lt;div&gt;
+							&lt;label class ="label2" for="size">PACKAGE SIZE&lt;/label&gt;
+							&lt;select class="select" name="size" id="size"&gt;
+							&lt;option value="12oz"&gt;12 oz CAN&lt;/option&gt;
+							&lt;option value="18oz"&gt;18 oz CAN&lt;/option&gt;
+							&lt;option value="22oz"&gt;22 oz BTL&lt;/option&gt;
+							&lt;option value="750ml"&gt;750 ml BTL&lt;/option&gt;
+							&lt;/select&gt;
+							&lt;/div&gt;
 
-						&lt;div&gt;
-						&lt;label class ="label2" for="quantity"&gt;QUANTITY&lt;/label&gt;
-						&lt;input class="quanti" type="number" id="quantity" name="quantity" min="1"&gt;
-						&lt;/div&gt;&lt;br&gt;
+							&lt;div&gt;
+							&lt;label class ="label2" for="quantity"&gt;QUANTITY&lt;/label&gt;
+							&lt;input class="quanti" type="number" id="quantity" name="quantity" min="1"&gt;
+							&lt;/div&gt;&lt;br&gt;
 
-						&lt;button class ="button button2"&gt;ADD TO CART&lt;/button&gt;
+							&lt;button class ="button button2"&gt;ADD TO CART&lt;/button&gt;
 
-						&lt;/div&lt;
-					</p>
+							&lt;/div&lt;
+						</p>
 					</div>
 
 
 
 				</div>
 
-							<!-----------------------------------------------------------SEARCH FILTER------------------------------------------------------>
-		<div class="block-2-half">
-		<h3>Search Filter</h3>
+				<!------------------------------------------------SEARCH FILTER----------------------------------------------->
+				<div class="block-2-half">
+					<h3>Search Filter</h3>
 
-		<div id="filter">
-			<h3>Fliter</h3>
-			<hr>	
-			<div>
-				<label for="price">Price</label>
-			</div>
-			<input type="range" min="5" max="30" value="15" class="slider" id="price">
-			<hr>
-			<div>
-				<label for="filtersize">Volume</label>
-			</div>
-			<select class="select" name="beersize" id="filtersize">
-				<option value="12oz">12 oz CAN</option>
-				<option value="18oz">18 oz CAN</option>
-				<option value="22oz">22 oz BTL</option>
-				<option value="750ml">750 ml BTL</option>
-			</select>
-			<hr>
-			<div>
-				<label for="abv">Alcohol Level</label>
-			</div>
-			<select class="select" name="abv" id="abv">
-				<option value="non">0% - 2.5%</option>
-				<option value="light">2.6% - 3.5%</option>
-				<option value="mid">3.5% - 4.5%</option>
-			</select>
+					<div id="filter">
+						<h3>Fliter</h3>
+						<hr>	
+						<div>
+							<label for="price">Price</label>
+						</div>
+						<input type="range" min="5" max="30" value="15" class="slider" id="price">
+						<hr>
+						<div>
+							<label for="filtersize">Volume</label>
+						</div>
+						<select class="select" name="beersize" id="filtersize">
+							<option value="12oz">12 oz CAN</option>
+							<option value="18oz">18 oz CAN</option>
+							<option value="22oz">22 oz BTL</option>
+							<option value="750ml">750 ml BTL</option>
+						</select>
+						<hr>
+						<div>
+							<label for="abv">Alcohol Level</label>
+						</div>
+						<select class="select" name="abv" id="abv">
+							<option value="non">0% - 2.5%</option>
+							<option value="light">2.6% - 3.5%</option>
+							<option value="mid">3.5% - 4.5%</option>
+						</select>
 
-		</div>
+					</div>
 
-		<div class="description">
+					<div class="description">
 						
 
 						<h4>Description</h4>
@@ -637,48 +645,52 @@
 
 						<h4>Sample Code:</h4>
 						<p class="codetext">
-						&lt;div class="filter"&gt;
-						&lt;h3&gt;Filter&lt;/h3&gt;
-						&lt;div&gt;
-						&lt;label for="price">Price&lt;/label&gt;
-						&lt;input type="range" min="5" max="30" value="15" id="price"&gt;
-						&lt;/div&gt;
+							&lt;div class="filter"&gt;
+							&lt;h3&gt;Filter&lt;/h3&gt;
+							&lt;div&gt;
+							&lt;label for="price">Price&lt;/label&gt;
+							&lt;input type="range" min="5" max="30" value="15" id="price"&gt;
+							&lt;/div&gt;
 
 
-						&lt;div&gt;
-						&lt;label for="size"&gt;Volume&lt;/label&gt;
-						&lt;select class="select" name="size" id="size"&gt;
-						&lt;option value="12oz">12 oz CAN&lt;/option&gt;
-						&lt;option value="18oz">18 oz CAN &lt;/option&gt;
-						&lt;option value="22oz">22 oz BTL&lt;/option&gt;
-						&lt;option value="750ml">750 ml BTL&lt;/option&gt;
-						&lt;/select&gt;
-						&lt;/div&gt;
+							&lt;div&gt;
+							&lt;label for="size"&gt;Volume&lt;/label&gt;
+							&lt;select class="select" name="size" id="size"&gt;
+							&lt;option value="12oz">12 oz CAN&lt;/option&gt;
+							&lt;option value="18oz">18 oz CAN &lt;/option&gt;
+							&lt;option value="22oz">22 oz BTL&lt;/option&gt;
+							&lt;option value="750ml">750 ml BTL&lt;/option&gt;
+							&lt;/select&gt;
+							&lt;/div&gt;
 
 
-						&lt;div&gt;
-						&lt;label for="abv">Alcohol Level&lt;/label&gt;
-						&lt;select class="select" name="abv" id="abv"&gt;
-						&lt;option value="non">0% - 2.5%&lt;/option&gt;
-						&lt;option value="light">2.6% - 3.5%&lt;/option&gt;
-						&lt;option value="mid">3.5% - 4.5%&lt;/option&gt;
-						&lt;/select&gt;
-						&lt;hr&gt;
-						&lt;/div&gt;
-						&lt;/div&gt;
-					</p>
+							&lt;div&gt;
+							&lt;label for="abv">Alcohol Level&lt;/label&gt;
+							&lt;select class="select" name="abv" id="abv"&gt;
+							&lt;option value="non">0% - 2.5%&lt;/option&gt;
+							&lt;option value="light">2.6% - 3.5%&lt;/option&gt;
+							&lt;option value="mid">3.5% - 4.5%&lt;/option&gt;
+							&lt;/select&gt;
+							&lt;hr&gt;
+							&lt;/div&gt;
+							&lt;/div&gt;
+						</p>
 
 						
 					</div>
 
-		</div>
+				</div>
 			</div>
 
 
 
 		</section>
 
+		<!---------------------------------------- Review Module ------------------------------------------------->
+
 		<section id="QA">
+
+		
 			<h2>How would you rate your drink?</h2>
 
 			<div id="rate_star">
@@ -734,6 +746,75 @@
 
 		</section>
 
+		<div class="description">
+			<h4>Description</h4>
+			The Review module will be on product detailed description page. It will be placed along with item description and product's reviews comments
+			<h4>CSS Code</h4>
+				<p class="codetext">.input .button .brow-btn #QA</p>
+			<h4>Sampe Code</h4>
+				<p class="codetext">
+					&lt;section id="QA"&gt;
+
+		
+			&lt;h2>How would you rate your drink?&lt;/h2&gt;
+
+			&lt;div id="rate_star"&gt;
+				&lt;svg xmlns="http://www.w3.org/2000/svg" height="15" viewBox="0 0 1792 1792"&gt;
+					&lt;path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z">&lt;/path&gt;
+				&lt;/svg&gt;
+				&lt;svg xmlns="http://www.w3.org/2000/svg" height="15" viewBox="0 0 1792 1792"&gt;
+					&lt;path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z">&lt;/path&gt;
+				&lt;/svg&gt;
+				&lt;svg xmlns="http://www.w3.org/2000/svg" height="15" viewBox="0 0 1792 1792"&gt;
+					&lt;path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z">&lt;/path&gt;
+				&lt;/svg&gt;
+				&lt;svg xmlns="http://www.w3.org/2000/svg" height="15" viewBox="0 0 1792 1792"&gt;
+					&lt;path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z">&lt;/path&gt;
+				&lt;/svg>
+				&lt;svg xmlns="http://www.w3.org/2000/svg" height="15" viewBox="0 0 1792 1792"&gt;
+					&lt;path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z">&lt;/path&gt;
+				&lt;/svg&gt;
+			&lt;/div&gt;
+
+			&lt;form id="fname"&gt;
+				&lt;div&gt;
+					&lt;label for="name">Your name:&lt;/label&gt;
+				&lt;/div&gt;
+				&lt;div&gt;
+					&lt;input type="text" id="name" class="input" placeholder="Your name"&gt;
+					<!-- <input type="text" id="name" class="input" placeholder="Last Name"> -->
+				&lt;/div&gt;
+
+			&lt;/form&gt;
+
+			&lt;form id="email_box"&gt;
+				&lt;div&gt;
+					&lt;label for="email"&gt;Email:&lt;/label&gt;
+				&lt;/div&gt;
+				&lt;div&gt;
+					&lt;input type="text" id="email" class="input" placeholder="Your email"&gt;
+				&lt;/div&gt;
+
+			&lt;/form&gt;
+
+			&lt;form id="freview"&gt;
+				&lt;div>
+					&lt;label for="review">Review:&lt;/label&gt;
+				&lt;/div&gt;
+				&lt;div&gt;
+					&lt;input type="text" id="review" name="review"&gt;
+				&lt;/div&gt;
+			&lt;/form&gt;
+
+			&lt;button class="button brown_btn"&gt;SUBMIT&lt;/button&gt;
+
+
+		&lt;/section&gt;
+
+				</p>
+		</div>
+
+<!-------------------------------------------------GRID STRUCTURE------------------------------------------------------>
 
 		<section id="grid_structure">
 			<div class="grid-container">
@@ -756,7 +837,7 @@
 				<div class="full darkgrey"><p class="inBlockText">COLUM 1 GRID</p> </div>
 
 				<!--forth Grid-->
-				<div class="card-row-container2">
+				<div class="shop-page-grid">
 					<div class="grid3 yellow"><p class="inBlockText">COLUM 1 GRID</p> </div>
 					<div class="grid3 yellow"><p class="inBlockText">COLUM 2 GRID</p> </div>
 					<div class="grid3 yellow"><p class="inBlockText">COLUM 3 GRID</p> </div>
@@ -764,16 +845,47 @@
 
 
 				</div>
-			</div>			
+			</div>	
+
+			<div class="description">
+
+				<h4>Description</h4>
+				Each grids layout have specific function. First line is for paragraph contents and images. Second line is for product list layout. Third line is for home page contents like landing page or navigation. And last line is for shop pages including product lists and search filtering engine.
+
+				<h4>CSS Code:</h4>
+				<p class="codetext">.grid-container .full .grid1 .grid2 .card-row-container .shop-page-grid</p>
+
+				<h4>Sampe Code</h4>
+				<p class="codetext">
+					&lt;div id="darkgrey" class="grid1"&gt;
+					&lt;p class ="inBlockText"&gt;COLUM 1 GRID&lt;/p&gt;&gt; 
+					&lt;/div&gt;
+					&lt;div id="darkgrey" class="grid2"&gt;
+					&lt;p class ="inBlockText"&gt;COLUM 2 GRID&lt;/p&gt; 
+					&lt;/div&gt;
+					&lt;div class="card-row-container"&gt;
+					&lt;div id="yellow" class="grid3"&gt;&lt;p class ="inBlockText"&gt;COLUM 1 GRID&lt;/p&gt; &lt;/div&gt;
+					&lt;div id="yellow" class="grid3"&gt;&lt;p class ="inBlockText"&gt;COLUM 2 GRID&lt;/p&gt; &lt;/div&gt;
+					&lt;div id="yellow" class="grid3"&gt;&lt;p class ="inBlockText"&gt;COLUM 3 GRID&lt;/p&gt; &lt;/div&gt;
+					&lt;/div&gt;
+
+					&lt;div id="darkgrey" class="full"&gt;&lt;p class ="inBlockText">COLUM 1 GRID&lt;/p&gt; &lt;/div&gt;
+					&lt;div class="shop-page-grid"&gt;
+					&lt;div id="yellow" class="grid3"&gt;&lt;p class ="inBlockText"&gt;COLUM 1 GRID&lt;/p&gt; &lt;/div&gt;
+					&lt;div id="yellow" class="grid3"&gt;&lt;p class ="inBlockText"&gt;COLUM 2 GRID&lt;/p&gt; &lt;/div&gt;
+					&lt;div id="yellow" class="grid3"&gt;&lt;p class ="inBlockText"&gt;COLUM 3 GRID&lt;/p&gt; &lt;/div&gt;
+					&lt;div id="yellow" class="grid3"&gt;&lt;p class ="inBlockText"&gt;COLUM 4 GRID&lt;/p&gt; &lt;/div&gt;
+				</p>
+			</div>		
 		</section>
 	</main>
 	
 	<footer>
 		<div id="footer_logo_part">
 			<img src = "img/logo.png" alt="logoimage" width="82" height="57">	
-			<div>
-				<a href="">Citation</a>	
-				<a href="">Style Guide</a>
+			<div id="reference_navigation">
+				<p><a href="Citation.html">Citation</a></p>	
+				<p><a href="StyleGuide.html">Style Guide</a></p>
 			</div>
 
 		</div>
