@@ -86,6 +86,14 @@ ul,ol{
 	text-align:center;
 }
 
+.text-highlight{
+	color:#B75142;
+}
+
+.text-asign-left{
+	text-align: left;
+}
+
 /*-----------------------------------------logo-----------------------------------------------*/
 .logo{
 	margin: 1rem;

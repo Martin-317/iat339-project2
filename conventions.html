@@ -1,11 +1,11 @@
 <!DOCTYPE html><!--declare type-->
 <html lang="en"><!--start of the html-->
 <head>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Default Template</title>    
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Default Template</title>    
 
-    <link href="css/main.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
 	<link href="css/grid.css" rel="stylesheet">
 	<link href="css/pattern.css" rel="stylesheet">
 
@@ -15,7 +15,7 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bitter">
 </head>
 <body>
-    <div class="nav_img" >
+	<div class="nav_img" >
 		<header>
 			<nav class = "navfont">
 				<img class ="logo" src = "img/logo.png" alt="logoimage" width="82" height="57" class="left">
@@ -36,85 +36,142 @@
 		<h1>P02 - Consolidated Pattern Library </h1>
 	</div>   
 
-    <section id="file">
-        <h2>File naming conventions</h2>
-        <div>
-            <h3>Folder Name</h3>
-            <p>css</p>
-            <p>img</p>
-        </div>
-
-        <div>
-            <h3>CSS file Name</h3>
-            <p>grid.css(contains all grid Structure)</p>
-            <p>main.css</p>
-            <p>pattern.css(contains reuseable css style)</p>
-        </div>      
-    </section>
-
-    <section id="class_id">
-        <h2>Class & ID Conventions examples</h2>
-        <ul>
-            <li><p>use "_" or "-" between each Character(eg:footer_socialMedia)</p></li>
-        </ul>
-
-    </section>
-
-
-    <footer>
-		<div id="footer_logo_part">
-			<img src = "img/logo.png" alt="logoimage" width="82" height="57">	
-			<div id="reference_navigation">
-				<p><a href="Citation.html">Citation</a></p>	
-				<p><a href="StyleGuide.html">Style Guide</a></p>
-				<p><a href="https://github.com/Martin-317/iat339-project2.git">Repository</a></p>				
-                <p><a href="conventions.html">Conventions</a></p>
-            </div>
-
-		</div>
-
-		<div id="footer_navigation">
-			<h3>Navigate</h3>
-			<a href="">Home</a>
-			<a href="">Shop</a>
-			<a href="">About Us & Contact</a>
-			<a href="">About Our Product</a>
-			<a href="">FAQ</a>
-		</div>
-
-		<div id="footer_socialMedia">
+	<main class="wrapper">
+		<section id="file">
+			<h2 class="text-asign-left">File Naming Conventions</h2>
 			<div>
-				<img src="img/ins.png" alt="img of instagram">
-				<a href="">instagram</a>
-			</div>
-			<div>
-				<img src="img/twitter.png" alt="img of twitter">
-				<a href="">twitter</a>
-			</div>
-			<div>
-				<img src="img/facebook.png" alt="img of facebook">
-				<a href="">facebook</a>
-			</div>
-		</div>
+				<h3>Folder Name</h3>
+				<ul>
+				<li><p>All the folder name should be in lowercase. (ex: img, css)</p></li>
+				<li><p>DO NOT type space in the folder name (ex: img folder)</p></li>
+					
+					
+				</ul>
+				</div>
 
-		<div id="footer_Customer">
-			<h3>Customer Service Hour</h3>
-			<p>Mon - Sat</p>
-			<p>10:00 am - 7:00 pm</p>
-			<div>
-				<img src="img/phone.png" alt="icon of a phone">
-				<p class="inline">604-123-4567</p>
-			</div>
-			<div>
-				<img src="img/mail.png" alt="icon of a mail">
-				<p class="inline">askme@wbbdrink.ca</p>
-			</div>
-		</div>
+				<div>
+					<h3>CSS File Name</h3>
+					<ul>
+						<li><p>Name all css files in lowercase</p></li>
+						<li><p>DO NOT type space in the CSS file name (ex: main grid.css)</p></li>
+											
+					</div>  
+
+					<div>
+						<h3>HTML File Name</h3> 
+						<ul>
+							<li><p>Write capital letter in the begining of each words (ex: Home.html, Shop.html)</p></li>  
+							<li><p>DO NOT type space in the HTML file name (ex: About Us.html) </p></li> 
+							<li><p>Try to put all letter together instead of either spacing or "-" (ex: AboutUs.html)</p></li>
+							<li><p>Name HTML files same as their pages name. (ex: Home.html, Shop.html)</p></li>
+						</ul>
+					</div>
+
+					<div>
+						<h3>Class & ID Conventions Name</h3>
+						<ul>
+							<li><p>use "_" or "-" between each Character(ex:footer_socialMedia)</p></li>
+							<li><p><strong>DO NOT</strong> name based on generics (ex: .button-1, .button-2)</p></li>
+							<li><p>Try to name class in specific way. (ex: .brown-btn, yellow-btn)</p></li>
+						</ul>
+					</div>
+
+					<div>
+						<h3>Image File Name</h3>
+						<ul>
+							<li><p>Name image files categorically (ex: logo.png, itemlist_1.jpg, health_icon.png)</p></li>
+						</ul>
+					</div>
+					</section>
+
+					<section id="class_id">
+						<h2 class="text-asign-left">File Structure Conventions</h2>
+
+
+						<div>
+							<h3>Folders</h3>
+							<ul>
+					<li><p><strong class="text-highlight">css:</strong> contains all css files, such as grid.css, pattern.css, or main.css</p></li>
+					<li><p><strong class="text-highlight">img:</strong> contains all image files, such as logos, icons, and product images</p></li>
+				</ul>
+						</div>
+
+						<div>
+							<h3>CSS Files</h3>
+							<ul>
+							<li><p><strong class="text-highlight">grid.css:</strong> contains all grid and layout Structure</p></li>
+							<li><p><strong class="text-highlight">main.css:</strong> contains reusable patterns, such as font styles, text colors, or button designs, </p></li>
+							<li><p><strong class="text-highlight">pattern.css:</strong> contains stylized patterns for modular elements, such as product lists, review stars, navigarion, and manymore </p></li>
+						</ul>
+					</div>
+
+					<div>
+						<h3>HTML Files</h3>
+						<ul>
+							<li><p>Structure HTML files with pages categories (ex: Home.html, AboutUs.html)</p></li>
+					</div>
 
 
 
-	</footer>
-    
-</body>
+
+
+					</section>
+				</main>
+
+				<footer>
+					<div id="footer_logo_part">
+						<img src = "img/logo.png" alt="logoimage" width="82" height="57">	
+						<div id="reference_navigation">
+							<p><a href="Citation.html">Citation</a></p>	
+							<p><a href="StyleGuide.html">Style Guide</a></p>
+							<p><a href="https://github.com/Martin-317/iat339-project2.git">Repository</a></p>				
+							<p><a href="conventions.html">Conventions</a></p>
+						</div>
+
+					</div>
+
+					<div id="footer_navigation">
+						<h3>Navigate</h3>
+						<a href="">Home</a>
+						<a href="">Shop</a>
+						<a href="">About Us & Contact</a>
+						<a href="">About Our Product</a>
+						<a href="">FAQ</a>
+					</div>
+
+					<div id="footer_socialMedia">
+						<div>
+							<img src="img/ins.png" alt="img of instagram">
+							<a href="">instagram</a>
+						</div>
+						<div>
+							<img src="img/twitter.png" alt="img of twitter">
+							<a href="">twitter</a>
+						</div>
+						<div>
+							<img src="img/facebook.png" alt="img of facebook">
+							<a href="">facebook</a>
+						</div>
+					</div>
+
+					<div id="footer_Customer">
+						<h3>Customer Service Hour</h3>
+						<p>Mon - Sat</p>
+						<p>10:00 am - 7:00 pm</p>
+						<div>
+							<img src="img/phone.png" alt="icon of a phone">
+							<p class="inline">604-123-4567</p>
+						</div>
+						<div>
+							<img src="img/mail.png" alt="icon of a mail">
+							<p class="inline">askme@wbbdrink.ca</p>
+						</div>
+					</div>
+
+
+
+				</footer>
+
+			</body>
 
 </html><!--end of the html-->
