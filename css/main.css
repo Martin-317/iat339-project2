@@ -43,11 +43,10 @@ h2{
 	
 }
 
-.bitter_review_header{
+.bitter_bigger_header{
 	font-family:Bitter, Arial, sans-serif;
 	font-size:2.5rem;
 	font-weight: bold;
-	text-align: center;
 	color:#3A2E2A;
 	margin-bottom: 0.5rem;
 }
@@ -76,6 +75,12 @@ p {
 	color: #000000;
 	
 	 
+}
+
+.para_in_About{
+	margin-top: 3.5rem;
+	line-height: 1.3rem;
+	width:clamp(26ch, 50%, 48ch);
 }
 
 .para_margin-bottom{
@@ -123,6 +128,15 @@ hr {
   width: 100%;               
   background-color:#000000;
   height: 1px;
+}
+
+.vertical_line{
+  border-left: 1px solid black;
+  height: 19rem;
+  position: absolute;
+  left: 50%;
+  margin-left: 6rem;
+  top: 20rem;
 }
 
 /*-----------------------------------------logo-----------------------------------------------*/
