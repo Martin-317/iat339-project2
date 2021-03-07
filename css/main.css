@@ -120,6 +120,7 @@ ul,ol{
 .text-asign-left{
 	text-align: left;
 }
+
 /*------------------------------------------line---------------------------------------------*/
 hr {
   border: 0;
@@ -137,6 +138,15 @@ hr {
   left: 50%;
   margin-left: 6rem;
   top: 20rem;
+}
+
+.shop_line{
+  border-left: 1px solid black;
+  height: 100rem;
+  position: absolute;
+  left: 16rem;
+  margin-left: 3rem;
+  top: 18rem;
 }
 
 /*-----------------------------------------logo-----------------------------------------------*/
@@ -187,7 +197,6 @@ hr {
   display: inline-block;
   font-size: 16px;
   margin-bottom: 1rem;
-  margin-top: 1rem;
   letter-spacing: 1px;
   
 }
@@ -252,6 +261,7 @@ hr {
    font-size: 1rem;
    cursor: pointer;
    line-height: 1.1;
+   margin-bottom: 0.5rem;
  }
 
 .block-1-half button{
