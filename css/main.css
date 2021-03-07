@@ -142,10 +142,10 @@ hr {
 
 .shop_line{
   border-left: 1px solid black;
-  height: 100rem;
+  height: 105rem;
   position: absolute;
   left: 16rem;
-  margin-left: 3rem;
+  margin-left: 1rem;
   top: 18rem;
 }
 
