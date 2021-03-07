@@ -39,6 +39,7 @@
 		</div>
 
 		<main class="wrapper">
+			<section>
 
 			<div class="grid-container margin_spacing">
 				<div class="block-1-half">
@@ -111,16 +112,20 @@
 				</div>
 
 			</div>
-
+			<hr>
+		</section>
+			
+			<section>
+				
 			<div class="grid-container">
 			
-			<h2 class="bitter_review_header">Review</h2>
+			
 			<div class="block-1-half">
 				<h3>Description</h3>
-				<p>Delight in Gruvis new Bubbly Rose. A unique combination of fruit alcohol create the pleasing colour of this shimmering spritz. Their new drink is semi-dry and you will find it crisp and a little fruity. Cheers to Bubbly!</p>
+				<p class="para_margin-bottom">Delight in Gruvis new Bubbly Rose. A unique combination of fruit alcohol create the pleasing colour of this shimmering spritz. Their new drink is semi-dry and you will find it crisp and a little fruity. Cheers to Bubbly!</p>
 
 				<h3>Recommended Pairing</h3>
-				<p>Chocolate covered strawberries, Grilled salmon salad, Roasted poultry</p>
+				<p class="para_margin-bottom">Chocolate covered strawberries, Grilled salmon salad, Roasted poultry</p>
 
 				<h3>Ingredients</h3>
 				<p>Spring Water, White Grape juice concentrate, natural flavour, malic acid, tartaric acid, natrual colour, tannic acid, carbon dioxide</p>
@@ -128,9 +133,73 @@
 			</div>
 
 			<div class="block-2-half">
-				<img class ="logo left" src = "img/gruvirose_nutrition.png" alt="gruvi_nutrition_image" width="82" height="57">
+				<img class="floatRight" src = "img/gruvirose_nutrition.png" alt="gruvi_nutrition_image" width="300" height="444">
 			</div>
 			</div>
+			
+			<hr>
+			<h3>Review</h3>
+			</section>
+
+			<section id="QA">
+
+			
+			<h2>How would you rate your drink?</h2>
+
+			<div id="rate_star">
+				<svg xmlns="http://www.w3.org/2000/svg" height="15" viewBox="0 0 1792 1792">
+					<path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z"></path>
+				</svg>
+				<svg xmlns="http://www.w3.org/2000/svg" height="15" viewBox="0 0 1792 1792">
+					<path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z"></path>
+				</svg>
+				<svg xmlns="http://www.w3.org/2000/svg" height="15" viewBox="0 0 1792 1792">
+					<path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z"></path>
+				</svg>
+				<svg xmlns="http://www.w3.org/2000/svg" height="15" viewBox="0 0 1792 1792">
+					<path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z"></path>
+				</svg>
+				<svg xmlns="http://www.w3.org/2000/svg" height="15" viewBox="0 0 1792 1792">
+					<path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z"></path>
+				</svg>
+			</div>
+
+			<form id="fname">
+				<div>
+					<label for="name">Your name:</label>
+				</div>
+				<div>
+					<input type="text" id="name" class="input" placeholder="Your name">
+					<!-- <input type="text" id="name" class="input" placeholder="Last Name"> -->
+				</div>
+
+			</form>
+
+			<form id="email_box">
+				<div>
+					<label for="email">Email:</label>
+				</div>
+				<div>
+					<input type="text" id="email" class="input" placeholder="Your email">
+				</div>
+
+			</form>
+
+			<form id="freview">
+				<div>
+					<label for="review">Review:</label>
+				</div>
+				<div>
+					<input type="text" id="review" name="Review">
+				</div>
+			</form>
+
+			<button class="button brown_btn">SUBMIT</button>
+
+
+		</section>
+
+
 
 
 

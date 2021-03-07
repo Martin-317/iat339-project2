@@ -74,7 +74,12 @@ p {
 	display: block;
 	line-height: 1.3rem;
 	color: #000000;
+	
 	 
+}
+
+.para_margin-bottom{
+	margin-bottom: 3rem;
 }
 
 .para-max-width{
@@ -87,6 +92,10 @@ img{
  	max-width:100%;
 	height:auto;
 }
+
+.floatRight{
+	
+	margin-left:10rem}
 
 
 ul,ol{
@@ -105,6 +114,15 @@ ul,ol{
 
 .text-asign-left{
 	text-align: left;
+}
+/*------------------------------------------line---------------------------------------------*/
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 100%;               
+  background-color:#000000;
+  height: 1px;
 }
 
 /*-----------------------------------------logo-----------------------------------------------*/
