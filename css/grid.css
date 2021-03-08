@@ -344,7 +344,7 @@ footer{
 
 }
 
-/*--------------------------------------------------FAQ----------------------------------------------------*/
+/*--------------------------------------------------Check Out----------------------------------------------------*/
 .co_grid{
 	display:grid;
 	grid-template-columns:repeat(16, 1fr);
@@ -378,3 +378,16 @@ footer{
 	border-color: #3A2E2A;
 }
 
+/*--------------------------------------------------FAQ----------------------------------------------------*/
+#general_questions, #returnExchange, #FAQ_shipping{
+	grid-column-start: 2;
+	grid-column-end: 12;
+}
+
+#FAQ_additionalInfo{
+	grid-column-start: 12;
+	grid-column-end: 16;
+	grid-row-start: 1;
+	border: none;
+	margin-left: 2rem;
+}

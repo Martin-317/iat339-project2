@@ -390,7 +390,7 @@ footer h5,footer h3,footer p{
   display: block;
  }
 
- /*--------------------------------------------------FAQ----------------------------------------------------*/
+ /*--------------------------------------------------Check Out----------------------------------------------------*/
  .FAQ_grid h2{
 	text-align: left;
 }
@@ -448,4 +448,33 @@ footer h5,footer h3,footer p{
 	padding-left: 1rem;
 	padding-top: 1rem;
 	padding-bottom: 1rem;
+}
+
+ /*--------------------------------------------------FAQ----------------------------------------------------*/
+.co_grid h2{
+	display: inline;
+	padding-bottom: 2rem;
+}
+
+.co_grid section{
+	border: solid;
+}
+
+#FAQ_shipping div{
+	border-top: 1px solid;
+	border-left: 1px solid;
+	border-right: 1px solid;
+}
+
+#FAQ_shipping h3, #FAQ_shipping p{
+	margin-left: 8rem;
+	margin-right: 4rem;
+}
+
+main{
+	margin-bottom: 2rem;
+}
+
+#FAQ_additionalInfo{
+	border: none;
 }
