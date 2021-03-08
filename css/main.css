@@ -404,24 +404,24 @@ footer h5,footer h3,footer p{
 	padding-bottom: 1rem;
 }
 
-#FAQ_shipping_info label{
+#co_shipping_info label{
 	margin-left: 8rem;
 }
 
-#FAQ_shipping_info input{
+#co_shipping_info input{
 	margin-left: 8rem;
 }
 
-.FAQ_input{
+.co_input{
 	width: 50%;
 }
 
-#FAQ_shipping_info div{
+#co_shipping_info div{
 	margin-top: 1rem;
 
 }
 
-#FAQ_shipping_info select{
+#co_shipping_info select{
 
 
 	margin-left: 8rem;

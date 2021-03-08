@@ -345,20 +345,20 @@ footer{
 }
 
 /*--------------------------------------------------FAQ----------------------------------------------------*/
-.FAQ_grid{
+.co_grid{
 	display:grid;
 	grid-template-columns:repeat(16, 1fr);
 	/* grid-template-rows: repeat(5, 1fr); */
 }
 
-.FAQ_left_position{
+.co_left_position{
 	grid-column-start: 2;
 	grid-column-end: 11;
 	border-style: solid;
 	border-color: #3A2E2A;
 }
 
-.FAQ_right_position{
+.co_right_position{
 	grid-column-start: 11;
 	grid-column-end: 16;
 }
