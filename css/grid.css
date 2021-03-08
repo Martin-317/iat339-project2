@@ -344,3 +344,37 @@ footer{
 
 }
 
+/*--------------------------------------------------FAQ----------------------------------------------------*/
+.FAQ_grid{
+	display:grid;
+	grid-template-columns:repeat(16, 1fr);
+	/* grid-template-rows: repeat(5, 1fr); */
+}
+
+.FAQ_left_position{
+	grid-column-start: 2;
+	grid-column-end: 11;
+	border-style: solid;
+	border-color: #3A2E2A;
+}
+
+.FAQ_right_position{
+	grid-column-start: 11;
+	grid-column-end: 16;
+}
+
+#cart{
+	margin-left: 1rem;
+	grid-row-start: 1;
+	border-style: solid;
+	border-color: #3A2E2A;
+}
+
+#summary{
+	margin-top: 1rem;
+	margin-left: 1rem;
+	grid-row-start: 2;
+	border-style: solid;
+	border-color: #3A2E2A;
+}
+

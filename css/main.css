@@ -390,3 +390,62 @@ footer h5,footer h3,footer p{
   display: block;
  }
 
+ /*--------------------------------------------------FAQ----------------------------------------------------*/
+ .FAQ_grid h2{
+	text-align: left;
+}
+
+#shipping h2{
+	background-color: #3A2E2A;
+	color: white;
+	margin: 0;
+	padding-left: 1rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+#FAQ_shipping_info label{
+	margin-left: 8rem;
+}
+
+#FAQ_shipping_info input{
+	margin-left: 8rem;
+}
+
+.FAQ_input{
+	width: 50%;
+}
+
+#FAQ_shipping_info div{
+	margin-top: 1rem;
+
+}
+
+#FAQ_shipping_info select{
+
+
+	margin-left: 8rem;
+	width: 30rem;
+	font-family: inherit;
+	font-size: inherit;
+	cursor: inherit;
+	line-height: inherit;
+}
+
+#cart h2{
+	background-color: #3A2E2A;
+	color: white;
+	margin: 0;
+	padding-left: 1rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+#summary h2{
+	background-color: #3A2E2A;
+	color: white;
+	margin: 0;
+	padding-left: 1rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
