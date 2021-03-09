@@ -467,10 +467,22 @@ footer h5,footer h3,footer p{
 
  /*--------------------------------------------------FAQ----------------------------------------------------*/
 .co_grid h2{
+	text-align: left;
+	/* display: inline;
+	padding-bottom: 2rem;
+	position: relative;
+	top: -2rem; */
+}
+
+.FAQ_grid h2{
 	display: inline;
 	padding-bottom: 2rem;
 	position: relative;
-	top: -2rem;
+	top: -2rem;	
+}
+
+.FAQ_grid section{
+	border: solid;
 }
 
 .co_grid section{
