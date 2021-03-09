@@ -493,3 +493,55 @@ main{
 	margin-top: 2rem;
 }
 
+/*--------------------------------------------------Home----------------------------------------------------*/
+.hero_img p{
+	color: white;
+	font-size: 32px;
+	width: 50rem;
+	line-height: 3rem;
+}
+
+#hero_text{
+	margin-left: 5rem;
+}
+
+#topSeller figcaption{
+	margin-left: 4rem;
+	/* width: 10rem; */
+}
+
+#topSeller figure{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#topSeller{
+	margin-bottom: 5rem;
+}
+
+
+#learnMore div{
+	display: inline;
+	margin-left: 5rem;
+	margin-right: 5rem;
+}
+
+#latestArrival figcaption{
+	margin-left: 4rem;
+	/* width: 10rem; */
+}
+
+#learnMore{
+	margin-bottom: 5rem;
+}
+
+#latestArrival{
+	margin-bottom: 5rem;
+}
+
+#aboutUs div{
+	margin-left: 5rem;
+	margin-right: 5rem;
+}
+

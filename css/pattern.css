@@ -39,6 +39,20 @@
  position: relative;
 }
 
+.hero_img{
+  background-image: url("../img/hero_img.png");
+
+  min-height: 45rem;
+  width: 100%;
+
+  background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+
+ /* Needed to position the navbar */
+ position: relative;
+}
+
 
 .navfont  {
   overflow: hidden;

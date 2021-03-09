@@ -402,3 +402,45 @@ footer{
 	border: none;
 	margin-left: 2rem;
 }
+
+/*--------------------------------------------------Home----------------------------------------------------*/
+#topSeller{
+	display: grid;
+	grid-template-columns:repeat(3, 1fr);
+	grid-template-rows:5rem 1fr;	
+}
+
+#topSeller figure{
+	grid-row-start: 2;
+}
+
+#topSeller h3{
+	grid-column-start: 2;
+	text-align: center;
+}
+
+#learnMore{
+	display: grid;
+	grid-template-columns:repeat(2, 1fr);
+}
+
+#latestArrival{
+	display: grid;
+	grid-template-columns:repeat(4, 1fr);
+	grid-template-rows:5rem 1fr;		
+}
+
+#latestArrival figure{
+	grid-row-start: 2;
+}
+
+#latestArrival h3{
+	grid-column-start: 2;
+	grid-column-end: 4;
+	text-align: center;
+}
+
+#aboutUs{
+	display: grid;
+	grid-template-columns:repeat(2, 1fr);
+}
