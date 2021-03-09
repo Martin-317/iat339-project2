@@ -454,6 +454,8 @@ footer h5,footer h3,footer p{
 .co_grid h2{
 	display: inline;
 	padding-bottom: 2rem;
+	position: relative;
+	top: -2rem;
 }
 
 .co_grid section{
@@ -475,6 +477,7 @@ main{
 	margin-bottom: 2rem;
 }
 
-#FAQ_additionalInfo{
-	border: none;
-}
+/* #returnExchange h2{
+	position: relative;
+	top: -2rem;
+} */
