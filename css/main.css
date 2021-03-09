@@ -121,6 +121,10 @@ ul,ol{
 	text-align: left;
 }
 
+#imglink {
+	padding: 0;
+}
+
 /*------------------------------------------line---------------------------------------------*/
 hr {
   border: 0;
@@ -477,7 +481,3 @@ main{
 	margin-bottom: 2rem;
 }
 
-/* #returnExchange h2{
-	position: relative;
-	top: -2rem;
-} */
