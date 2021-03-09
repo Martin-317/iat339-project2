@@ -3,6 +3,7 @@
 	padding:0.5rem;
 	background-color: white;
 	margin:0 auto;
+	margin-top: 2rem;
 	display:grid;
  	min-height:100vh;
 }
@@ -12,6 +13,7 @@
 	padding:0.5rem;
 	background-color: white;
 	margin:0 auto;
+	margin-top: 2rem;
 	display:grid;
  	min-height:100vh;
 }
@@ -186,6 +188,7 @@ input[id="review"]{
 .sidebar{
 	grid-column:1/9;
 	grid-column-end: auto;
+
 }
 
 
@@ -304,6 +307,14 @@ input[id="review"]{
 	.sidebar{
 	grid-column:1/9;
 	grid-column-end: 9;
+
+	}
+
+	.popular-itemlist{
+	 display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 80%;
 	}
 }
 
