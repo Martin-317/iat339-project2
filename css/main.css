@@ -22,7 +22,7 @@ h1{
 	letter-spacing: 2px;
 	font-weight:bold;
 
-	color:#E9E8E8;	
+	color:#E0E0E0;	
 }
 
 .mainheader{
@@ -135,6 +135,8 @@ ul,ol{
 #imglink {
 	padding: 0;
 }
+
+
 
 /*------------------------------------------line---------------------------------------------*/
 hr {
@@ -358,12 +360,12 @@ label{
 
 footer a{
 	text-decoration: none;
-	color: white;
+	color: #E9E8E8;
 	
 }
 
 footer h5,footer h3,footer p{
-	color: white;
+	color: #E9E8E8;
 }
 
 #footer_logo_part{
@@ -518,7 +520,11 @@ main{
 }
 
 #topSeller figcaption{
-	margin-left: 4rem;
+	/*margin-left: 4rem;*/
+	font-family:Bitter, Arial, sans-serif;
+	font-size:1.3rem;
+	margin-top: 1rem;
+	text-align: center;
 	/* width: 10rem; */
 }
 
