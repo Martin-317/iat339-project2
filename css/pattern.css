@@ -39,6 +39,11 @@
  position: relative;
 }
 
+.homenav_img{
+  background-image: url("bg_img.png");
+  min-height: 5rem;
+}
+
 .hero_img{
   background-image: url("../img/hero_img.png");
 
@@ -58,9 +63,8 @@
   overflow: hidden;
   font-family:Oswald, Arial, sans-serif;
 
-
-
 }
+
 
 .navfont a {
   float: left;
@@ -72,13 +76,32 @@
 
 }
 
+.nav_home{
+   overflow: hidden;
+  font-family:Oswald, Arial, sans-serif;
+  }
+
+  .nav_home a {
+  float: left;
+  font-size: 1.5rem;
+  color: #3A2E2A;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
+.nav_home_dropfont{
+  color: #3A2E2A;
+}
+
 .dropdown {
   float: left;
   overflow: hidden;
 }
 
 
-.navfont a:hover, .dropdown:hover .dropbtn {
+.navfont a:hover, .nav_home a:hover,  .dropdown:hover .dropbtn, .dropdown:hover .home_dropbtn{
   color: #FFAF34;
 }
 
@@ -91,6 +114,18 @@
   background-color: inherit;
   font-family: inherit;
   margin: 0;
+}
+
+.home_dropbtn{
+    font-size: 1.5rem; 
+  border: none;
+  outline: none;
+  color: #3A2E2A;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  
 }
 
 .dropdown-content {
