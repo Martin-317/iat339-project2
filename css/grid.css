@@ -67,14 +67,19 @@ header{
 
 .icon_placement{
 	grid-column:1/9;
-	grid-column-end:3;
+	grid-column-end:2;
 }
 
 .icon_contents{
 
-	grid-column: 3/9;
+	grid-column: 2/9;
 	grid-column-end: 9;
 
+}
+
+.no-column-gap{
+	grid-column-gap: 0rem;
+	margin-left:5rem;
 }
 
 .block-1-half{
