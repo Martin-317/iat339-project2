@@ -606,3 +606,38 @@ footer{
 	display: grid;
 	grid-template-columns:repeat(2, 1fr);
 }
+
+@media screen and (max-width:54rem){
+	.hero_img{
+		background-image: url("../img/hero_img_mobile_ver.png");
+	  }
+
+	  #learnMore img{
+		width: 100%;
+		grid-column-start: 1;
+		grid-column-end: 3;		  
+	  }
+
+	  #learnMore div{
+		text-align: center;
+		grid-column-start: 1;
+		grid-column-end: 3;		  
+	  }
+
+	  #aboutUs{
+		grid-template-rows:1fr 15rem;
+	}
+
+	  #aboutUs img{
+		width: 100%;
+		grid-column-start: 1;
+		grid-column-end: 3;		  
+	  }
+
+	  #aboutUs div{
+		text-align: center;
+		grid-column-start: 1;
+		grid-column-end: 3;	
+		grid-row-start: 2;	  
+	  }
+}

@@ -594,8 +594,16 @@ main{
 }
 
 #latestArrival figcaption{
-	margin-left: 4rem;
-	/* width: 10rem; */
+	font-family:Bitter, Arial, sans-serif;
+	font-size:1.3rem;
+	margin-top: 1rem;
+	text-align: center;
+}
+
+#latestArrival figure{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #learnMore{
@@ -611,3 +619,26 @@ main{
 	margin-right: 5rem;
 }
 
+#hero_text h1, #hero_text p{
+	margin-left: 0rem;
+	margin-right: 0rem;
+	color: #3A2E2A;
+}
+
+#hero_text p{
+	width: 50%;
+}
+
+.hero_img{
+	background-image: url("../img/hero_img.png");
+  
+	min-height: 45rem;
+	width: 100%;
+  
+	background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+  
+   /* Needed to position the navbar */
+   position: relative;
+  }
