@@ -296,7 +296,7 @@ input[id="review"]{
 
 	.card-row-container{
 		grid-column:1/ span 3;
-		
+		display:block;
 		grid-column-end: 9;
 	}
 
@@ -342,8 +342,8 @@ input[id="review"]{
 
 	.popular-itemlist{
 	 display: block;
-  	margin-left: auto;
-  	margin-right: auto;
+  	
+  	
   	width: 80%;
 	}
 }
@@ -385,6 +385,44 @@ input[id="review"]{
 	grid-row-start: 8;
 	grid-column-start: 4;
 	grid-column-end: 8;
+}
+
+/*---------------------------------------------Grid for Item List-------------------------------------------*/
+.item-img-grid{
+	grid-column-start:1;
+	grid-column-end:9;
+}
+
+.item-info-grid{
+	grid-column-start:1;
+	grid-column-end:9;
+	line-height: 50%;
+}
+
+.item-list-grid-container{
+	display:grid;
+ 	grid-template-columns:repeat(8, 1fr);
+}
+
+@media screen and (max-width:54rem){
+.item-img-grid{
+	grid-column:1/9;
+	grid-column-end:6;
+}
+
+.item-info-grid{
+	grid-column:6/9;
+	margin-left: 1rem;
+	line-height: 100%;
+}
+
+.item-image{
+	width: 200px;
+}
+
+.item-list-grid-container{
+	width:25rem;
+}
 }
 
 /*--------------------------------------------------footer----------------------------------------------------*/
