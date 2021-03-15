@@ -443,14 +443,39 @@ footer h5,footer h3,footer p{
 	text-align: left;
 }
 
-#shipping h2{
+#shipping .co_subheader_selected{
 	background-color: #3A2E2A;
+}
+
+.co_subheader_selected h2{
 	color: white;
 	margin: 0;
 	padding-left: 1rem;
 	padding-top: 1rem;
 	padding-bottom: 1rem;
+	display: inline;
 }
+
+.co_subheader_selected img{
+	position:relative;
+	top:1rem;
+}
+
+
+.co_subheader_unselected h2{
+	color: black;
+	margin: 0;
+	padding-left: 1rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	display: inline;
+}
+
+.co_subheader_unselected img{
+	position:relative;
+	top:1rem;
+}
+
 
 #co_shipping_info label{
 	margin-left: 8rem;
@@ -483,23 +508,37 @@ footer h5,footer h3,footer p{
 	line-height: inherit;
 }
 
-#cart h2{
+#cart .co_subheader_selected{
 	background-color: #3A2E2A;
-	color: white;
-	margin: 0;
-	padding-left: 1rem;
-	padding-top: 1rem;
-	padding-bottom: 1rem;
 }
 
-#summary h2{
+#cart .co_subheader_selected img{
+	width: 3rem;
+	top: 0.5rem;
+}
+
+
+#cart p{
+	display: inline-block;
+}
+
+#summary .co_subheader_selected{
+	background-color: #3A2E2A;
+}
+
+#summary .co_subheader_selected img{
+	top: 0.5rem;
+}
+
+
+/* #summary h2{
 	background-color: #3A2E2A;
 	color: white;
 	margin: 0;
 	padding-left: 1rem;
 	padding-top: 1rem;
 	padding-bottom: 1rem;
-}
+} */
 
  /*--------------------------------------------------FAQ----------------------------------------------------*/
 .co_grid h2{

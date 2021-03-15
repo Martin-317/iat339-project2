@@ -532,6 +532,25 @@ footer{
 	border-color: #3A2E2A;
 }
 
+@media screen and (max-width:54rem){
+	#cart{
+		grid-column-start: 1;
+		grid-column-end: 17;
+	}
+	#summary{
+		grid-column-start: 1;
+		grid-column-end: 17;
+		grid-row-start: 2;
+		margin-bottom: 1rem;
+	}
+
+	.co_left_position{
+		grid-column-start: 2;
+		grid-column-end: 16;
+	}
+
+}
+
 /*--------------------------------------------------FAQ----------------------------------------------------*/
 #general_questions, #returnExchange, #FAQ_shipping{
 	grid-column-start: 2;
