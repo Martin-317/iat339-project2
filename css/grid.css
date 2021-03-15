@@ -537,7 +537,9 @@ footer{
 		border: none;
 	}
 
-
+	.FAQ_grid img{
+		width: 4rem;
+	}
 
 	main h2{
 		font-size: 28px;
