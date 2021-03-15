@@ -89,7 +89,7 @@ header{
 	background-color: #F6F6F6;
 	display: grid;
 	grid-template-columns:repeat(8, 1fr);
-	grid-template-rows: 5rem 5rem 5rem 15rem 5rem;
+	grid-template-rows: 5rem 5rem 5rem 15rem 5rem 1fr 1fr 1fr;
 }
 
 #QA h2{
@@ -318,6 +318,44 @@ input[id="review"]{
 	}
 }
 
+#martin_comment_info{
+	grid-row-start:6;
+	grid-column-start: 2;
+	grid-column-end: 8;
+	margin-bottom: 1rem;
+}
+
+#martin_comment{
+	grid-row-start: 6;
+	grid-column-start: 4;
+	grid-column-end: 8;
+}
+
+#jason_comment_info{
+	grid-row-start:7;
+	grid-column-start: 2;
+	grid-column-end: 8;
+	margin-bottom: 1rem;
+}
+
+#jason_comment{
+	grid-row-start: 7;
+	grid-column-start: 4;
+	grid-column-end: 8;
+}
+
+#lee_comment_info{
+	grid-row-start:8;
+	grid-column-start: 2;
+	grid-column-end: 8;
+	margin-bottom: 1rem;
+}
+
+#lee_comment{
+	grid-row-start: 8;
+	grid-column-start: 4;
+	grid-column-end: 8;
+}
 
 /*--------------------------------------------------footer----------------------------------------------------*/
 footer{
@@ -325,6 +363,43 @@ footer{
 	background-color: #3A2E2A;
 	display:grid;
 	grid-template-columns:repeat(4, 1fr);	
+}
+
+@media screen and (max-width:833px){
+	#footer_logo_part,  #footer_socialMedia{
+		grid-column-start: 1;
+		grid-column-end: 3;
+	}
+
+	#footer_socialMedia{
+		margin-left: 3rem;
+	}
+
+	#footer_navigation, #footer_Customer{
+		grid-column-start: 3;
+		grid-column-end: 5;		
+	}
+}
+
+@media screen and (max-width:500px){
+	#footer_logo_part, #footer_navigation, #footer_socialMedia, #footer_Customer{
+		grid-column-start: 1;
+		grid-column-end: 5;
+	}
+
+	#footer_logo_part, #footer_socialMedia{
+		margin: 0;
+	}
+
+	#footer_logo_part{
+		margin-top: 3rem;
+		text-align: center;
+	}
+
+	#footer_navigation, #footer_socialMedia, #footer_Customer{
+		margin-left: 3rem;
+	}
+
 }
 
 /*--------------------------------------------------grid----------------------------------------------------*/
@@ -401,6 +476,63 @@ footer{
 	grid-row-start: 1;
 	border: none;
 	margin-left: 2rem;
+}
+
+.FAQ_grid{
+	display: grid;
+	grid-template-columns:repeat(16, 1fr);
+}
+
+@media screen and (max-width:850px){
+	#general_questions, #returnExchange, #FAQ_shipping{
+		grid-column-start: 2;
+		grid-column-end: 16;
+	}	
+
+	#FAQ_additionalInfo{
+		grid-column-start: 2;
+		grid-column-end: 16;
+		grid-row-start: 4;
+		border: none;
+	}
+
+}
+
+@media screen and (max-width:600px){
+	.FAQ_grid section{
+		border: none;
+	}
+	
+	#returnExchange{
+		border: none;
+	}
+
+	main img{
+		width: 4rem;
+	}
+
+	main h2{
+		font-size: 28px;
+	}
+
+	.FAQ_grid h2{
+		top: -1rem;	
+	}
+
+	#FAQ_shipping h3, #FAQ_shipping p{
+		margin-left: 4rem;
+	}
+
+	main h3{
+		margin-top: 0;
+		font-size: 20px;
+	}
+
+	#sub_FAQ_shipping{
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+		background-color: gray;
+	}
 }
 
 /*--------------------------------------------------Home----------------------------------------------------*/
