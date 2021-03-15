@@ -65,6 +65,23 @@ header{
 	grid-column-end:9;
 }
 
+.icon_placement{
+	grid-column:1/9;
+	grid-column-end:2;
+}
+
+.icon_contents{
+
+	grid-column: 2/9;
+	grid-column-end: 9;
+
+}
+
+.no-column-gap{
+	grid-column-gap: 0rem;
+	margin-left:5rem;
+}
+
 .block-1-half{
 	grid-column:1/9;
 	grid-column-end:5;
@@ -234,6 +251,19 @@ input[id="review"]{
 	grid-column:2/9;
 	display:grid;
 
+}
+
+.icon_row{
+  margin-right: 2rem;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.icon_row_container{
+	grid-column:1/9;
+	display:grid;
+	grid-template-columns:1fr 1fr 1fr;
+	grid-column-end:5;
 }
 
 

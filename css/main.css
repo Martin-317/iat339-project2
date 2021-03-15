@@ -51,6 +51,7 @@ h2{
 	font-weight: bold;
 	color:#3A2E2A;
 	margin-bottom: 0.5rem;
+	text-align: left;
 }
 
 h3{
@@ -287,7 +288,7 @@ hr {
 
 /*-----------------------------------------Text Input-----------------------------------------------*/
 .txtinput{
- width: 200px;
+ width: 11.8rem;
  padding: 12px 20px;
  margin: 8px 0;
  box-sizing: border-box;
@@ -296,13 +297,26 @@ hr {
  font-size: 1rem;
  font-family: Bitter, Arial, sans-serif;
  background-color: white;
+ margin-bottom: 2rem;
 
 }
 
+.subject{
+	width: 90%;
+
+}
+
+.message{
+	height: 15rem;
+}
+
+
+
 label{
-	font-family: Bitter, Arial, sans-serif;
+  font-family: Bitter, Arial, sans-serif;
   font-size: 1rem;
   color: #3A2E2A;
+  font-weight: bold;
   
 }
 
@@ -350,7 +364,12 @@ label{
 	display: inline;
 }
 
-
+.center {
+  margin: auto;
+  width: 80%;
+  padding: 10px;
+  margin-top: 2rem;
+}
 
 
 
