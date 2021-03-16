@@ -478,18 +478,17 @@ footer h5,footer h3,footer p{
 
 
 #co_shipping_info label{
-	margin-left: 8rem;
-	width: 5rem;
+	margin-left: 1rem;
+	margin-top: 1rem;
+	/* margin-left: 8rem;
+	width: 5rem; */
 }
 
-#co_shipping_info input{
-	/* text-align: right;
-	position: relative;
-	right: 1rem; */
-}
 
 .co_input{
-	width: 50%;
+	width: 70%;
+	margin-top: 1rem;
+
 }
 
 #co_shipping_info div{
@@ -500,12 +499,12 @@ footer h5,footer h3,footer p{
 #co_shipping_info select{
 
 
-	margin-left: 8rem;
+	/* margin-left: 8rem;
 	width: 30rem;
 	font-family: inherit;
 	font-size: inherit;
 	cursor: inherit;
-	line-height: inherit;
+	line-height: inherit; */
 }
 
 #cart .co_subheader_selected{

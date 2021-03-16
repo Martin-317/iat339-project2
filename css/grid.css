@@ -532,6 +532,12 @@ footer{
 	border-color: #3A2E2A;
 }
 
+.two_columns_grid{
+	display: grid;
+	grid-template-columns:1fr 1fr;
+
+}
+
 @media screen and (max-width:54rem){
 	#cart{
 		grid-column-start: 1;
