@@ -75,10 +75,10 @@ p {
 	font-size:1rem;
 	display: block;
 	line-height: 1.3rem;
-	color: #000000;
-	
-	 
+	color: #000000; 
 }
+
+
 
 .para_in_About{
 	margin-top: 3.5rem;
@@ -671,12 +671,17 @@ main{
 #hero_text h1, #hero_text p{
 	margin-left: 0rem;
 	margin-right: 0rem;
+	margin-bottom: 0rem;
+	margin-top: 3rem;
 	color: #3A2E2A;
+
 }
 
 #hero_text p{
-	width: 50%;
-	font-size: 1.5rem;
+	width: 35%;
+	font-size: 1rem;
+	margin-bottom: 2rem;
+	line-height: 2rem;
 }
 
 .hero_img{
@@ -698,6 +703,16 @@ main{
 	text-decoration: none;
 	background-color: #FFAF34;
 	color:white;
-	padding: 1rem 3rem 1rem 3rem	;
+	padding: 1rem 3rem 1rem 3rem;
 	border-radius: 0.5rem;		
+}
+
+
+
+.home_itemimg{
+
+}
+
+.home_itemimg:hover{
+	opacity:0.3;
 }

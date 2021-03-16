@@ -724,10 +724,9 @@ footer{
 		display: block;
 		text-decoration: none;
 		background-color: #FFAF34;
-		color: #3A2E2A;
-		border-radius: 1rem;
+		border-radius: 0.5rem;
 		text-align: center;	
-		margin: 1rem 15rem 1rem 15rem;	
+			
 	}
 
 	.hero_img{
