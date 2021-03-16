@@ -70,7 +70,7 @@
   .nav_home a {
   float: left;
   font-size: 1.5rem;
-  color: #3A2E2A;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -106,7 +106,7 @@
     font-size: 1.5rem; 
   border: none;
   outline: none;
-  color: #3A2E2A;
+  color: white;
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;

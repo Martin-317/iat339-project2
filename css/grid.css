@@ -697,4 +697,39 @@ footer{
 		grid-column-end: 3;	
 		grid-row-start: 2;	  
 	  }
+
+	  #hero_text{
+		margin-left: 0rem;
+	}
+
+	#hero_text p{
+		margin-left: 3rem;
+		margin-right: 3rem;
+		width: auto;
+		text-align: center;
+	}
+
+	#hero_text h1{
+		text-align: center;
+		margin-bottom: 3rem;
+	}
+
+	#hero_text a{
+		display: block;
+		text-decoration: none;
+		background-color: #FFAF34;
+		color: #3A2E2A;
+		border-radius: 1rem;
+		text-align: center;	
+		margin: 1rem 15rem 1rem 15rem;	
+	}
+
+	.hero_img{
+		min-height: 70rem;
+	  }
+
+	  .bitter_bigger_header{
+		text-align: center;
+	}
+
 }

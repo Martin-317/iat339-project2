@@ -595,6 +595,10 @@ main{
 }
 
 /*--------------------------------------------------Home----------------------------------------------------*/
+.nav_home{
+	background-color: #3A2E2A;
+}
+
 .hero_img p{
 	color: white;
 	font-size: 32px;
@@ -671,7 +675,7 @@ main{
 .hero_img{
 	background-image: url("../img/hero_img.png");
   
-	min-height: 45rem;
+	min-height: 43rem;
 	width: 100%;
   
 	background-position: center;
@@ -681,3 +685,12 @@ main{
    /* Needed to position the navbar */
    position: relative;
   }
+
+  #hero_text a{
+	display: inline-block;
+	text-decoration: none;
+	background-color: #FFAF34;
+	color: #3A2E2A;
+	padding: 1rem 3rem 1rem 3rem	;
+	border-radius: 1rem;		
+}
