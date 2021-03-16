@@ -595,7 +595,16 @@ main{
 
 /*--------------------------------------------------Home----------------------------------------------------*/
 .nav_home{
-	background-color: #3A2E2A;
+	background-image: url("bg_img.png");
+
+	min-height: 5rem;
+  
+	background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+  
+   /* Needed to position the navbar */
+   position: relative;
 }
 
 .hero_img p{
