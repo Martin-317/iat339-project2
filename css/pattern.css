@@ -5,6 +5,9 @@
 
 
 /*---------------------------------------------------NAVIGATION-------------------------------------------*/
+body{
+  margin: 0px;
+}
 /*Page Nave*/
 .pagenav a {
   display:inline-block;
@@ -140,11 +143,7 @@
   display: block;
 }
 
-.navbtn_pos {
- position: absolute;
- right: 50px; 
 
-} 
 
 
 

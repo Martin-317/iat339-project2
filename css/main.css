@@ -137,7 +137,91 @@ ul,ol{
 	padding: 0;
 }
 
+.burger{
+	display: none;
+}
 
+.burger div {
+    width: 25px;
+    height: 3px;
+    background-color: rgb(226, 226, 226);
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+
+@media screen and (max-width:768px){
+	body{
+		overflow-x: hidden;
+	}
+
+	.navbtn_pos{
+		position: absolute;
+		right: 0px;
+		height: 92vh;
+		top: 89px;
+		background-color: #3A2E2A;
+		display: flex;
+		flex-direction: column;
+		width: 50%;
+		transform: translateX(100%);
+		transition: transform 0.5s ease-in;
+	}
+
+	.dropdown-content {
+		display: block;
+		position: relative;
+	}
+	
+	.home_dropbtn{
+		display: none;
+	}
+
+	.dropdown-content a {
+		color: white;
+		text-align: center;
+		background-color: #3A2E2A;
+	  }
+
+	.navbtn_pos a{
+		opacity: 0;
+	}
+
+	.burger{
+		display: block;
+		cursor: pointer;
+	}
+
+	.nav-active{
+		transform: translateX(0%);
+	}
+
+	@keyframes navLinkFade{
+		from{
+			opacity: 0;
+			transform: translateX(50px);
+		}
+		to{
+			opacity: 1;
+			transform: translateX(0);
+		}
+	}
+
+	.toggle .line1 {
+		transform: rotate(-45deg) translate(-5px, 6px);
+	}
+	
+	.toggle .line2 {
+		opacity: 0;
+	}
+	
+	.toggle .line3 {
+		transform: rotate(45deg) translate(-5px, -6px);
+	}
+	
+
+	
+
+}
 
 /*------------------------------------------line---------------------------------------------*/
 hr {
@@ -361,7 +445,9 @@ label{
 
 
 .navbtn_pos {
-	display: inline;
+	/* display: inline;
+	position: absolute;
+	right: 50px; 	 */
 }
 
 .center {
@@ -602,6 +688,9 @@ main{
 	background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
   
 }
 
