@@ -632,7 +632,7 @@ footer{
 #topSeller{
 	display: grid;
 	grid-template-columns:repeat(3, 1fr);
-	grid-template-rows:5rem 1fr;	
+	/*grid-template-rows:5rem 1fr;*/	
 }
 
 #topSeller figure{
@@ -652,7 +652,7 @@ footer{
 #latestArrival{
 	display: grid;
 	grid-template-columns:repeat(4, 1fr);
-	grid-template-rows:5rem 1fr;		
+	/*grid-template-rows:5rem 1fr;*/		
 }
 
 #latestArrival figure{
