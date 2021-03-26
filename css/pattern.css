@@ -407,3 +407,65 @@ ul#infolist li {
 .Aboutbeer-img{
   margin-top: 2.8rem;
 }
+
+/*------------------------Quantity Inputs----------------------------*/
+
+.quantity {
+ display: inline-block;
+ margin-bottom: 2.5rem; }
+
+.quantity .input-text.qty {
+ width: 60px;
+ height: 39px;
+ padding: 0 5px;
+ text-align: center;
+ background-color: transparent;
+ border: 1px solid #E4E4E4;
+}
+
+.quantity.buttons_added {
+ text-align: left;
+ position: relative;
+ white-space: nowrap;
+ vertical-align: top; }
+
+.quantity.buttons_added input {
+ display: inline-block;
+ margin: 0;
+ vertical-align: top;
+ box-shadow: none;
+}
+
+.quantity.buttons_added .minus,
+.quantity.buttons_added .plus {
+
+ width: 41px;
+ height: 41px;
+ background-color: #6C6B6A;
+ border: 1px solid #E4E4E4;
+ color: #E4E4E4;
+ cursor:pointer;
+ font-size: 35px;
+}
+
+.quantity.buttons_added .minus {
+ border-right: 0; }
+
+.quantity.buttons_added .plus {
+ border-left: 0; }
+
+.quantity.buttons_added .minus:hover,
+.quantity.buttons_added .plus:hover {
+ background: #E4E4E4;
+ color: #6C6B6A; }
+
+.quantity input::-webkit-outer-spin-button,
+.quantity input::-webkit-inner-spin-button {
+ -webkit-appearance: none;
+ -moz-appearance: none;
+ margin: 0; }
+ 
+ .quantity.buttons_added .minus:focus,
+.quantity.buttons_added .plus:focus {
+ outline: none; }
+

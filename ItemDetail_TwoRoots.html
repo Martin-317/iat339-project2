@@ -10,6 +10,9 @@
 	<link href="css/grid.css" rel="stylesheet">
 	<link href="css/pattern.css" rel="stylesheet">
 
+	 <script data-require="jquery@3.1.1" data-semver="3.1.1" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="javascript/script.js"></script>
+
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Code+Pro">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Work+Sans">
@@ -105,7 +108,9 @@
 							<label for="purchasequantity">Quantity</label>
 						</div>
 
-						<input class="quanti" type="number" id="purchasequantity" name="beerquantity" min="1">
+						<div class="quantity buttons_added">
+						<input type="button" value="-" class="minus"><input type="number" step="1" min="1" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">
+						</div>
 
 					</div>
 
