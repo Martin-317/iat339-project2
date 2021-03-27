@@ -24,7 +24,64 @@ String.prototype.getDecimals || (String.prototype.getDecimals = function() {
 });
 
 
-function quickShop_function() {
-  var popup = document.getElementById("myPopup");
+function quickShop_function1() {
+  var popup = document.getElementById("myPopup1");
   popup.classList.toggle("show");
 }
+
+function quickShop_function2() {
+  var popup = document.getElementById("myPopup2");
+  popup.classList.toggle("show");
+}
+
+function quickShop_function3() {
+  var popup = document.getElementById("myPopup3");
+  popup.classList.toggle("show");
+}
+
+function quickShop_function4() {
+  var popup = document.getElementById("myPopup4");
+  popup.classList.toggle("show");
+}
+
+function quickShop_function5() {
+  var popup = document.getElementById("myPopup5");
+  popup.classList.toggle("show");
+}
+
+function quickShop_function6() {
+  var popup = document.getElementById("myPopup6");
+  popup.classList.toggle("show");
+}
+
+function quickShop_function7() {
+  var popup = document.getElementById("myPopup7");
+  popup.classList.toggle("show");
+}
+
+function quickShop_function8() {
+  var popup = document.getElementById("myPopup8");
+  popup.classList.toggle("show");
+}
+
+function quickShop_function9() {
+  var popup = document.getElementById("myPopup9");
+  popup.classList.toggle("show");
+}
+
+function quickShop_function10() {
+  var popup = document.getElementById("myPopup10");
+  popup.classList.toggle("show");
+}
+
+function quickShop_function11() {
+  var popup = document.getElementById("myPopup11");
+  popup.classList.toggle("show");
+}
+
+function quickShop_function12() {
+  var popup = document.getElementById("myPopup12");
+  popup.classList.toggle("show");
+}
+
+

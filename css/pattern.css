@@ -457,17 +457,17 @@ border: 1px solid  #E4E4E4;}
 .popup {
   position: relative;
   display: inline-block;
-  cursor: pointer;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+  /*cursor: pointer;*/
+  /*-webkit-user-select: none;*/
+  /*-moz-user-select: none;*/
+  /*-ms-user-select: none;*/
+ /* user-select: none;*/
 }
 
 /* The actual popup */
 .popup .popuptext {
   visibility: hidden;
-  width: 15rem;
+  width: 17rem;
   background-color: #3A2E2A;
   color: #fff;
   text-align: center;
@@ -476,8 +476,8 @@ border: 1px solid  #E4E4E4;}
   position: absolute;
   z-index: 1;
   bottom: 125%;
-  left: 15%;
-  margin-left: -80px;
+  margin-bottom: 0.5rem;
+  margin-left: -8.5rem;
   line-height: 230%;
 }
 
