@@ -1,3 +1,4 @@
+/* from W3C*/
 /*accordion */
 var reviewAcc = document.getElementById('reviewForm');
 var reviewF = document.getElementById('QA');
