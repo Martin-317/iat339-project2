@@ -344,25 +344,7 @@ ul#infolist li {
   opacity: 0.3;
 }
 
-/*-------------------------------------------------------QUICK ADD-------------------------------------------------------*/
-.quickadd{
- background-color: #3A2E2A; /* dark Brown*/
- color: white;
- text-align: center;
- width:15rem;
- height: 18rem;
- border-radius: 25px;
- padding: 1rem;
- line-height: 230%;
-}
 
-
-.labels-in-quickadd{
-  font-family: Oswald, Arial, sans-serif;
-  font-size: 1.2rem;
-  color: #FFAF34;
-
-}
 
 /*-----------------------------------------Filter-----------------------------------------------*/
 #filter{
@@ -419,8 +401,8 @@ ul#infolist li {
  height: 39px;
  padding: 0 5px;
  text-align: center;
- background-color: transparent;
- border: 1px solid #E4E4E4;
+ background-color: white;
+ border: 1px solid white ;
 }
 
 .quantity.buttons_added {
@@ -442,7 +424,7 @@ ul#infolist li {
  width: 41px;
  height: 41px;
  background-color: #6C6B6A;
- border: 1px solid #E4E4E4;
+ border: 1px solid #6C6B6A;
  color: #E4E4E4;
  cursor:pointer;
  font-size: 35px;
@@ -457,7 +439,8 @@ ul#infolist li {
 .quantity.buttons_added .minus:hover,
 .quantity.buttons_added .plus:hover {
  background: #E4E4E4;
- color: #6C6B6A; }
+ color: #6C6B6A; 
+border: 1px solid  #E4E4E4;}
 
 .quantity input::-webkit-outer-spin-button,
 .quantity input::-webkit-inner-spin-button {
@@ -469,3 +452,81 @@ ul#infolist li {
 .quantity.buttons_added .plus:focus {
  outline: none; }
 
+/*----------------------------------Quick Add Pop-Up--------------------------------------------------------------------------*/
+
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  width: 15rem;
+  background-color: #3A2E2A;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 0.5rem;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 15%;
+  margin-left: -80px;
+  line-height: 230%;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #3A2E2A transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+
+/*-------------------------------------------------------QUICK ADD-------------------------------------------------------*/
+.quickadd{
+ background-color: #3A2E2A; /* dark Brown*/
+ color: white;
+ text-align: center;
+ width:15rem;
+ height: 18rem;
+ border-radius: 25px;
+ padding: 
+ line-height: 230%;
+}
+
+
+.labels-in-quickadd{
+  font-family: Oswald, Arial, sans-serif;
+  font-size: 1.2rem;
+  color: #FFAF34;
+
+}
