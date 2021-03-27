@@ -104,9 +104,11 @@ header{
 
 #QA {
 	background-color: #F6F6F6;
-	display: grid;
+	display: none;
 	grid-template-columns:repeat(8, 1fr);
 	grid-template-rows: 5rem 5rem 5rem 15rem 5rem 1fr 1fr 1fr;
+	grid-column-start: 1;
+	grid-column-end: 9;
 }
 
 #QA h2{

@@ -813,3 +813,8 @@ main{
 .home_itemimg:hover{
 	opacity:0.3;
 }
+
+/*--------------------------------------------------QA----------------------------------------------------*/
+.active, .reviewButton:hover{
+	background-color: #FFAF34;
+}

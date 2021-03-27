@@ -22,6 +22,6 @@ function navSlide(){
     });
 
 }
-
+/*function execution */
 navSlide();
 

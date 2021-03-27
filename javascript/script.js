@@ -1,4 +1,5 @@
 /*Quantity Function: https://embed.plnkr.co/plunk/B5waxZ*/
+/*CSS/JS model */
 
 function quantity_inrements() {
     jQuery("div.quantity:not(.buttons_added), td.quantity:not(.buttons_added)").each(function(a, b) {
@@ -83,5 +84,4 @@ function quickShop_function12() {
   var popup = document.getElementById("myPopup12");
   popup.classList.toggle("show");
 }
-
 
