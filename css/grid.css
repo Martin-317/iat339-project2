@@ -345,11 +345,26 @@ input[id="review"]{
 
 	.popular-itemlist{
 	 display: block;
-  	
-  	
   	width: 80%;
 	}
+
+	.margin_spacing{
+		margin-top:1rem;
+	}
 }
+
+
+
+@media screen and (max-width:20em){
+.shop-page-grid{
+	grid-column:1/9;
+	grid-column-end: 9;
+	}
+
+	.item-list-grid-container{
+		width:15rem;
+	}
+	}
 
 #martin_comment_info{
 	grid-row-start:6;
@@ -425,6 +440,16 @@ input[id="review"]{
 
 .item-list-grid-container{
 	width:25rem;
+}
+
+.shopbtn{
+	padding:1px;
+	font-size: 1rem;
+}
+
+#filter{
+	width:23rem;
+	margin-left: 20%;
 }
 }
 
@@ -620,8 +645,8 @@ footer{
 	}
 
 	main h3{
-		margin-top: 0;
-		font-size: 20px;
+		/*margin-top: 0;*/
+		/*font-size: 20px;*/
 	}
 
 	#sub_FAQ_shipping{

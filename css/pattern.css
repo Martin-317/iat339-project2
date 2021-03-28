@@ -348,7 +348,7 @@ ul#infolist li {
 
 /*-----------------------------------------Filter-----------------------------------------------*/
 #filter{
-  width: auto;
+  width: 15rem;
   height: 18rem;
   border: 0.5px solid black;
   /*margin-top: 3rem;*/
