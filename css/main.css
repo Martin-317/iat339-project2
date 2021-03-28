@@ -182,6 +182,7 @@ ul,ol{
 		width: 50%;
 		transform: translateX(100%);
 		transition: transform 0.5s ease-in;
+		z-index: 2;
 
 	}
 
@@ -698,6 +699,99 @@ main{
 	margin-bottom: 4rem;
 	margin-top: 2rem;
 }
+
+/*--------accordion test area----------*/
+
+.FAQ_accordion {
+	width: 100%;
+	max-width: 360px;
+	margin: 30px auto 20px;
+	background: #eeeeee;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+  }
+
+  .FAQ_accordion .link {
+	cursor: pointer;
+	display: block;
+	padding: 65px 15px 30px 42px;
+	color: #1a1a1a;
+	font-size: 14px;
+	font-weight: 700;
+	position: relative;
+	-webkit-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+  }
+
+  .FAQ_accordion li:last-child .link { 
+	  border-bottom: 0; 
+	}
+
+	.FAQ_accordion li i {
+		position: absolute;
+		top: 16px;
+		left: 12px;
+		font-size: 18px;
+		color: #1a1a1a;
+		-webkit-transition: all 0.4s ease;
+		-o-transition: all 0.4s ease;
+		transition: all 0.4s ease;
+	}
+
+	.FAQ_accordion li i.fa-chevron-down {
+		right: 12px;
+		left: auto;
+		font-size: 16px;
+	}
+	
+	.FAQ_accordion li.open .link {
+		color: #872b2b; 
+	}
+
+	.FAQ_accordion li.open i {
+		color: #872b2b;
+	}
+
+	.FAQ_accordion li.open i.fa-chevron-down {
+		-webkit-transform: rotate(90deg);
+		-ms-transform: rotate(90deg);
+		-o-transform: rotate(90deg);
+		transform: rotate(90deg);
+		transform-origin: center;
+	  }
+
+	  /** Submenu -----------------------------*/
+	.submenu {
+		display: none;
+		background: #eeeeee;
+		font-size: 13px;
+		text-align: center;
+		padding-top: 3%;
+		padding-bottom: 2%;
+		padding-left: 3%;
+		padding-right: 3%;
+	}
+
+	.submenu li { border-bottom: 1px solid #4b4a5e; }
+
+	.submenu a {
+		display: block;
+		text-decoration: none;
+		color: #1a1a1a;
+		padding: 12px;
+		padding-left: 42px;
+		-webkit-transition: all 0.25s ease;
+		-o-transition: all 0.25s ease;
+		transition: all 0.25s ease;
+	}
+
+	.submenu a:hover {
+		background: #b63b4d;
+		color: #FFF;
+	}
+  
 
 /*--------------------------------------------------Home----------------------------------------------------*/
 .nav_home{
