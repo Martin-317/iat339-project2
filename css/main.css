@@ -12,6 +12,9 @@ body{
 
 
 /*----------------------------------------------Headers---------------------------------------------------*/
+strong{
+	color:#FFAF34;
+}
 
 h1{
 	font-family:Oswald, Arial, sans-serif;
@@ -29,7 +32,7 @@ h1{
 	font-family:Oswald, Arial, sans-serif;
 	font-size:3rem;
 	font-weight:normal;
-	margin-top: 5rem;
+	margin-bottom: 5rem;
 	margin-left: 1rem;
 	letter-spacing: 2px;
 	font-weight:bold;
@@ -78,6 +81,10 @@ p {
 	color: #000000; 
 }
 
+.para-center{
+	text-align: center;
+}
+
 
 
 .para_in_About{
@@ -108,6 +115,12 @@ img{
   margin-right: auto;
   width: 80%;
 
+}
+
+.icon_center{
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
 }
 
 .floatRight{
@@ -169,6 +182,7 @@ ul,ol{
 		width: 50%;
 		transform: translateX(100%);
 		transition: transform 0.5s ease-in;
+
 	}
 
 	.dropdown-content {
@@ -700,6 +714,20 @@ main{
   
 }
 
+.navfont{
+	background-image: url("bg_img.png");
+
+	min-height: 15rem;
+  
+	background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   justify-content: space-between;
+   
+  
+}
+
 .hero_img p{
 	color: white;
 	font-size: 32px;
@@ -845,4 +873,8 @@ main{
 	border-color: white;
 	background-color: white;
 	color: black;
+}
+
+.margin_spacing{
+	margin-top:10rem;
 }
