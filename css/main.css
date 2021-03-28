@@ -809,7 +809,7 @@ main{
 }
 
 .hero_img{
-	background-image: url("../img/hero_img.png");
+	background-image: url("../img/hero_img2.png");
   
 	min-height: 43rem;
 	width: 100%;
@@ -829,7 +829,8 @@ main{
 	background-color: #FFAF34;
 	color:white;
 	padding: 1rem 3rem 1rem 3rem;
-	border-radius: 0.5rem;		
+	/*border-radius: 0.5rem;*/
+
 }
 
 
