@@ -269,6 +269,7 @@ input[id="review"]{
 	grid-column-end:5;
 }
 
+/*Mobile Size*/
 @media screen and (max-width:414px){
 .wrapper{
 	width:clamp(10rem, 80vw, 75rem);
@@ -277,6 +278,17 @@ input[id="review"]{
 
 .grid-container{
 	grid-column-gap:3.5rem;
+}
+
+#latestArrival figcaption{
+	font-size:1rem;
+}
+
+#topSeller figcaption{
+
+	font-family:Bitter, Arial, sans-serif;
+	font-size:1rem;
+
 }
 
 }
