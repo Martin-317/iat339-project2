@@ -565,7 +565,7 @@ footer h5,footer h3,footer p{
 
 .co_subheader_selected img{
 	position:relative;
-	top:1rem;
+	/* top:1rem; */
 }
 
 
@@ -619,8 +619,9 @@ footer h5,footer h3,footer p{
 }
 
 #cart .co_subheader_selected img{
-	width: 3rem;
-	top: 0.5rem;
+	width: 4rem;
+	margin-right: 1rem;
+	/* top: 0.5rem; */
 }
 
 
@@ -633,8 +634,65 @@ footer h5,footer h3,footer p{
 }
 
 #summary .co_subheader_selected img{
-	top: 0.5rem;
+	margin-right: 1rem;
+	/* top: 0.5rem; */
 }
+
+.CO_button{
+	display: inline-block;
+	text-decoration: none;
+	background-color: #FFAF34;
+	color:white;
+	padding: 0.5rem 4rem 0.5rem 4rem;
+	border-radius: 0.5rem;
+	position: relative;
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+
+}
+
+.CO_button_flex{
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 15%;
+}
+
+.co_sider{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+#finished_shipping{
+	display: none;
+}
+
+.finished_shipping_left{
+	grid-column-start: 1;
+	grid-column-end: 2;
+	margin-left: 1rem;
+}
+
+.finished_shipping_right{
+	grid-column-start: 2;
+	grid-column-end: 3;
+}
+
+#finished_shipping p, #billing_add p{
+	font-family: Bitter, Arial, sans-serif;
+	font-size: 1rem;
+	color: #3A2E2A;
+	font-weight: bold;
+}
+
+#finished_phone_num{
+	grid-row-start: 1;
+}
+
+#finished_e_mail{
+	grid-row-start: 2;
+}
+
 
 
 /* #summary h2{
@@ -657,9 +715,9 @@ footer h5,footer h3,footer p{
 
 .FAQ_grid h2{
 	display: inline;
-	padding-bottom: 2rem;
+	/* padding-bottom: 2rem; */
 	position: relative;
-	top: -2rem;	
+	/* top: -2rem;	 */
 }
 
 .FAQ_grid section{
@@ -690,9 +748,27 @@ footer h5,footer h3,footer p{
 	border-right: 1px solid;
 } */
 
-#FAQ_shipping h3, #FAQ_shipping p{
+.FAQ_accordion{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.FAQ_accordion img{
+	width: 80px;
+}
+
+.FAQ_sub{
+	display: none;
+}
+
+.FAQ_sub h3, .FAQ_sub p{
 	margin-left: 8rem;
 	margin-right: 4rem;
+}
+
+#FAQ_return{
+	border-bottom: solid;
 }
 
 main{
@@ -700,98 +776,7 @@ main{
 	margin-top: 2rem;
 }
 
-/*--------accordion test area----------*/
 
-.FAQ_accordion {
-	width: 100%;
-	max-width: 360px;
-	margin: 30px auto 20px;
-	background: #eeeeee;
-	-webkit-border-radius: 0px;
-	-moz-border-radius: 0px;
-	border-radius: 0px;
-  }
-
-  .FAQ_accordion .link {
-	cursor: pointer;
-	display: block;
-	padding: 65px 15px 30px 42px;
-	color: #1a1a1a;
-	font-size: 14px;
-	font-weight: 700;
-	position: relative;
-	-webkit-transition: all 0.4s ease;
-	-o-transition: all 0.4s ease;
-	transition: all 0.4s ease;
-  }
-
-  .FAQ_accordion li:last-child .link { 
-	  border-bottom: 0; 
-	}
-
-	.FAQ_accordion li i {
-		position: absolute;
-		top: 16px;
-		left: 12px;
-		font-size: 18px;
-		color: #1a1a1a;
-		-webkit-transition: all 0.4s ease;
-		-o-transition: all 0.4s ease;
-		transition: all 0.4s ease;
-	}
-
-	.FAQ_accordion li i.fa-chevron-down {
-		right: 12px;
-		left: auto;
-		font-size: 16px;
-	}
-	
-	.FAQ_accordion li.open .link {
-		color: #872b2b; 
-	}
-
-	.FAQ_accordion li.open i {
-		color: #872b2b;
-	}
-
-	.FAQ_accordion li.open i.fa-chevron-down {
-		-webkit-transform: rotate(90deg);
-		-ms-transform: rotate(90deg);
-		-o-transform: rotate(90deg);
-		transform: rotate(90deg);
-		transform-origin: center;
-	  }
-
-	  /** Submenu -----------------------------*/
-	.submenu {
-		display: none;
-		background: #eeeeee;
-		font-size: 13px;
-		text-align: center;
-		padding-top: 3%;
-		padding-bottom: 2%;
-		padding-left: 3%;
-		padding-right: 3%;
-	}
-
-	.submenu li { border-bottom: 1px solid #4b4a5e; }
-
-	.submenu a {
-		display: block;
-		text-decoration: none;
-		color: #1a1a1a;
-		padding: 12px;
-		padding-left: 42px;
-		-webkit-transition: all 0.25s ease;
-		-o-transition: all 0.25s ease;
-		transition: all 0.25s ease;
-	}
-
-	.submenu a:hover {
-		background: #b63b4d;
-		color: #FFF;
-	}
-  
 
 /*--------------------------------------------------Home----------------------------------------------------*/
 .nav_home{
@@ -923,7 +908,7 @@ main{
 	background-color: #FFAF34;
 	color:white;
 	padding: 1rem 3rem 1rem 3rem;
-	/*border-radius: 0.5rem;*/
+	border-radius: 0.5rem;
 
 }
 

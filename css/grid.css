@@ -586,7 +586,7 @@ footer{
 }
 
 /*--------------------------------------------------FAQ----------------------------------------------------*/
-#general_questions, #returnExchange, #FAQ_shipping{
+#general_questions, #FAQ_return, #FAQ_shipping{
 	grid-column-start: 2;
 	grid-column-end: 12;
 }
@@ -605,7 +605,7 @@ footer{
 }
 
 @media screen and (max-width:850px){
-	#general_questions, #returnExchange, #FAQ_shipping{
+	#general_questions, #FAQ_return, #FAQ_shipping{
 		grid-column-start: 2;
 		grid-column-end: 16;
 	}	
@@ -624,7 +624,7 @@ footer{
 		border: none;
 	}
 	
-	#returnExchange{
+	#FAQ_return{
 		border: none;
 	}
 
@@ -636,9 +636,6 @@ footer{
 		font-size: 28px;
 	}
 
-	.FAQ_grid h2{
-		top: -1rem;	
-	}
 
 	#FAQ_shipping h3, #FAQ_shipping p{
 		margin-left: 4rem;

@@ -56,17 +56,37 @@
 
     <main class="FAQ_grid">
         <section id="general_questions">
-            <img src="img/question.png" alt="an icon of question mark">
-            <h2>General Questions</h2>
+			<div class="FAQ_accordion">
+				<div class="flex_align_center">
+					<img src="img/question.png" alt="an icon of question mark">
+					<h2>General Questions</h2>
+				</div>
+
+				<img src="img/black_arrow_right.png" alt="an arrow">
+			</div>
+
+			<div class="FAQ_sub">
+				<h3>Can I cancel or updated my order before it is ready for shipping?</h3>
+				<p>Yes. To cancel or update an order, please call our product specialist team at 604-123-4567.</p>
+				<h3>How do I track my order?</h3>
+				<p>Once your order ships, you will receive an email containing your tracking
+					 number. If for any reason you have not received your shipping
+					  confirmation email, please let us know by emailing
+					   askme@wbbdrink.ca. We will be happy to find out what exactly is going on with your order.</p>
+			</div>
+
         </section>
 
         <section id="FAQ_shipping">
-            <div id="test_accordion">
-                <img src="img/truck.png" alt="an icon of truck">
-                <h2>Shipping</h2>
+            <div class="FAQ_accordion">
+				<div class="flex_align_center">
+					<img src="img/truck.png" alt="an icon of truck">
+					<h2>Shipping</h2>
+				</div>
+				<img src="img/black_arrow_right.png" alt="an arrow">
             </div>
 
-            <div id="sub_FAQ_shipping">
+            <div class="FAQ_sub">
                 <h3>How long will my shipment take to arrive?</h3>
                 <p>We ship by Fedex or UPS Ground which takes
                      around 3 days to most places throughout 
@@ -78,9 +98,30 @@
 
         </section>
 
-        <section id="returnExchange">
-            <img src="img/box.png" alt="an icon of a box">
-            <h2>Return & Exchange</h2>            
+        <section id="FAQ_return">
+			<div class="FAQ_accordion">
+				<div class="flex_align_center">
+					<img src="img/box.png" alt="an icon of a box">
+					<h2>Return & Exchange</h2>      
+				</div>
+				<img src="img/black_arrow_right.png" alt="an arrow">  
+			</div>
+
+			<div class="FAQ_sub">
+				<h3>Can I exchange the purchased product?</h3>
+				<p>For an exchange of a purchased product, you must 
+					present the original sales receipt and the unopened and 
+					un-tampered product. It must be no more than 60 days since 
+					the date of purchase.
+				</p>
+				<h3>Is it possible to refund the purchased product?</h3>
+				<p>For refund of a purchased product, you must present
+					 the original sales receipt and the unopened and
+					  un-tampered product. It must be no more than 60 
+					  days since the date of purchase. All refunds over
+					   $100 are subject to a 13% restocking fee.</p>
+			</div>
+                
         </section>
 
         <section id="FAQ_additionalInfo">
@@ -143,7 +184,7 @@
 
 	</footer>
 	<script src="./javascript/app.js"></script>	
-	<script src="./javascript/FAQ_accordion_oldpage.js"></script>
+	<script src="./javascript/FAQ_accordion.js"></script>
 </body>
 
 </html><!--end of the html-->
