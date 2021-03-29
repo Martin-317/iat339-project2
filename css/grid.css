@@ -272,7 +272,6 @@ input[id="review"]{
 @media screen and (max-width:414px){
 .wrapper{
 	width:clamp(10rem, 80vw, 75rem);
-	padding: 0rem;
 	margin: 0rem;
 }
 
