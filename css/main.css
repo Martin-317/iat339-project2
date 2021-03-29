@@ -924,7 +924,7 @@ main{
 
 /*--------------------------------------------------QA----------------------------------------------------*/
 .active, .reviewButton:hover{
-	background-color: #FFAF34;
+	background-color: white;
 }
 
 .flex_spcaceB_center{
@@ -934,7 +934,7 @@ main{
 }
 
 .flex_spcaceB_center button{
-
+	background-color: #FFAF34;
 	border: solid;
 	border-color: #FFAF34;
 	border-radius: 5px;
@@ -942,11 +942,13 @@ main{
 	font-size: 18px;
 	padding: 0.5rem 3rem;
 	margin-top: 1rem;
+	color:white;
 }
 
 .flex_spcaceB_center button:hover{
 	color: white;
-	background-color: #FFAF34;
+	background-color: white;
+	color: #3A2E2A;
 }
 
 .flex_spcaceB_center button:active{
