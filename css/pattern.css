@@ -7,6 +7,12 @@ ul{
   align-items: center;
 }
 
+.flex_spaceBetween{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 12%;
+  margin-right: 12%;
+}
 
 
 

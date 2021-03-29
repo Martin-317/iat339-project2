@@ -58,12 +58,12 @@
 
     <main class="co_grid">
         <section id="shipping" class="co_left_position">
-            <div class="co_subheader_selected" >
+            <div class="co_subheader_selected co_subheader" >
                 <h2>1. Shipping</h2>
                 <img src="img/dropdown_icon_1.png" alt="drop down icon">    
             </div>
 
-            <div class="two_columns_grid" id="co_shipping_info">    
+            <div class="two_columns_grid" id="co_shipping_info">   
                 <!-- <form id="co_shipping_info"> -->
                     <label for="co_fname">First name:</label>
                     <input type="text" class="co_input" id="co_fname">
@@ -134,9 +134,66 @@
         </section>
 
         <section id="billing" class="co_left_position">
-            <div class="co_subheader_unselected">
+            <div class="co_subheader_unselected co_subheader">
                 <h2>2. Billing</h2>
                 <img src="img/dropdown_icon_2.png" alt="drop down icon">    
+            </div>
+
+            <form action="" id="billing_ckeck">
+                <label for="same_info">Same as my shipping address</label>
+                <input type="checkbox" id="same_info" onclick="show_hide_billing_info()">
+            </form> 
+
+            <div class="two_columns_grid" id="co_billing_info">   
+                <!-- <form id="co_shipping_info"> -->
+                    <label for="co_fname">First name:</label>
+                    <input type="text" class="co_input" id="co_fname">
+
+
+                    <label for="co_lname">Last name:</label>
+                    <input type="text" class="co_input" id="co_lname">
+
+
+                    <label for="co_pCode">Postal Code:</label>
+                    <input type="text" class="co_input" id="co_pCode">
+
+
+                    <label for="co_address1">Address line1:</label>
+                    <input type="text" class="co_input" id="address1">
+
+
+                    <label for="">Address line2:</label>
+                    <input type="text" class="co_input">
+
+
+                        <label for="provence">Provence</label>
+                        <select name="pv" id="provence">
+                            <option value="">--Please choose an option--</option>
+                            <option value="AB">AB</option>
+                            <option value="BC">BC</option>                            
+                        </select>
+
+
+                        <label for="country">Country</label>
+                        <select name="countries" id="country">
+                            <option value="">--Please choose an option--</option>
+                            <option value="CA">Canada</option>
+                            <option value="US">The United States</option>                            
+                        </select>
+
+
+
+                        <label for="phone_num">Phone Number:</label>
+                        <input type="text" class="co_input" id="phone_num">
+
+
+
+                    
+                        <label for="e_mail">Email:</label>
+                        <input type="text" class="co_input" id="e_mail">
+
+                <!-- </form> -->
+
             </div>
 
             <div class="two_columns_grid" id="billing_add" >
@@ -150,35 +207,86 @@
             </div>
 
             <div class="CO_button_flex">
-                <button class="CO_button" id="shipping_button">Next</button>
+                <button class="CO_button" id="billing_button">Next</button>
             </div>
 
 
         </section>
 
         <section id="payment" class="co_left_position">
-            <div class="co_subheader_unselected">
+            <div class="co_subheader_unselected co_subheader">
                 <h2>3. Payment</h2>
                 <img src="img/dropdown_icon_2.png" alt="drop down icon">    
             </div>
+
+            <div id="payment_info" >
+                <div id="payment_img">
+                    <img src="img/visa.png" alt="visa logo">
+                    <img src="img/masterCard.svg" alt="masterCard logo">
+                    <img src="img/americanExpress.png" alt="americanExpress logo">
+                </div>
+
+                <div id="card_info">
+                    <div>
+                        <label for="card_num">Card Number:</label>
+                    </div>
+                    <input type="text" id="card_num">
+
+                    <div>
+                        <label for="card_expiration">Card Expiration Date:</label>
+                    </div>
+                    <input type="text" id="card_expiration">
+
+                    <div>
+                        <label for="card_cvv">CVV2/CVC2 code:</label>
+                    </div>
+                    <input type="text" id="card_cvv">
+
+                    <div>
+                        <label for="card_holder">Card holder name:</label>
+                    </div>
+                    <input type="text" id="card_holder">
+                    <a href="Purchased.html" id="card_button">Place Order</a>
+                </div>
+               
+            </div>
+
+            
+            <!-- <div class="CO_button_flex">
+                <button class="CO_button" id="card_button">Place Order</button>
+            </div> -->
         </section>
 
 
         <section id="cart" class="co_right_position">
             <div class="co_subheader_selected co_sider">
                 <h2>Cart</h2>
-                <img src="img/cart_icon.png" alt="drop down icon">    
+                <img src="img/cart_icon.png" alt="drop down icon">  
+                <!-- <img src="img/expand.png" alt="expansion icon">   -->
             </div>
 
-            <div class="co_sider_flex">
-                <img src="img/itemimg_6.png" alt="an image of a non-alcohol beer">
-                <div>
-                    <p>Product 1</p>
-                    <p>Volume: 330ml</p>
-                    <p>Quantity: 3</p>
+            <div id="cart_product">
+                <div class="co_sider_flex">
+                    <img width="100" src="img/itemimg_6.png" alt="an image of a non-alcohol beer">
+                    <div>
+                        <p>Product 1</p>
+                        <p>Volume: 330ml</p>
+                        <p>Quantity: 3</p>
+                    </div>
+    
                 </div>
-
+    
+                <div class="co_sider_flex">
+                    <img width="100" src="img/itemimg_10.png" alt="an image of a non-alcohol beer">
+                    <div>
+                        <p>Product 2</p>
+                        <p>Volume: 330ml</p>
+                        <p>Quantity: 3</p>
+                    </div>
+    
+                </div>
             </div>
+
 
         </section>
 
@@ -188,8 +296,26 @@
                 <img src="img/dollar_sign.png" alt="drop down icon">    
             </div>
 
-            <div>
-               
+            <div id="summary_price">
+               <div class="flex_spaceBetween">
+                   <p>Subtotal</p>
+                   <p>$41.99</p>
+               </div>
+
+                <div class="flex_spaceBetween">
+                    <p>Shipping</p>
+                    <p>$10</p>
+                </div>
+                
+                <div class="flex_spaceBetween">
+                    <p>Taxs</p>
+                    <p>$4.2</p>
+                </div>
+
+                <div class="flex_spaceBetween">
+                    <p>Total</p>
+                    <p>$56.19</p>
+                </div>
             </div>
 
         </section>

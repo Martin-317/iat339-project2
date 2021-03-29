@@ -584,7 +584,7 @@ footer h5,footer h3,footer p{
 }
 
 
-#co_shipping_info label{
+#co_shipping_info label, #co_billing_info label{
 	margin-left: 1rem;
 	margin-top: 1rem;
 	/* margin-left: 8rem;
@@ -598,12 +598,12 @@ footer h5,footer h3,footer p{
 
 }
 
-#co_shipping_info div{
+#co_shipping_info div, #co_billing_info div{
 	margin-top: 1rem;
 
 }
 
-#co_shipping_info select{
+#co_shipping_info select, #co_billing_info select{
 
 
 	/* margin-left: 8rem;
@@ -626,7 +626,7 @@ footer h5,footer h3,footer p{
 
 
 #cart p{
-	display: inline-block;
+	display: block;
 }
 
 #summary .co_subheader_selected{
@@ -691,6 +691,86 @@ footer h5,footer h3,footer p{
 
 #finished_e_mail{
 	grid-row-start: 2;
+}
+
+#billing_add, #billing_button{
+	display: none;
+}
+
+#billing_ckeck{
+	display: none;
+	margin-top: 1rem;
+	margin-left: 1rem;
+	margin-bottom: 1rem;
+}
+
+#co_billing_info{
+	display: none;
+}
+
+#payment_info div{
+	margin-left: 1rem;
+}
+
+#payment_info #payment_img{
+	margin-left: 2rem;
+}
+
+#payment_img{
+	display: none;
+	align-items: center;
+}
+
+#payment_img img{
+	display:inline-block;
+	width: 3rem;
+}
+
+#card_info{
+	display: none;
+}
+
+#card_info input{
+	margin-left: 1rem;
+	margin-bottom: 1rem;
+	width: 70%;
+}
+
+#card_button{
+	display: inline-block;
+	text-decoration: none;
+	background-color: #FFAF34;
+	color:white;
+	padding: 0.5rem 4rem 0.5rem 4rem;
+	border-radius: 0.5rem;
+	position: relative;
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+	margin-left: 50%;
+}
+
+.co_subheader{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.co_sider_flex img{
+	/* width: 8rem; */
+}
+
+.co_sider_flex{
+	margin-top: 3rem;
+	margin-left: 10%;
+	display: flex;
+}
+
+.co_sider_flex div{
+	margin-left: 2rem;
+}
+
+#summary p{
+	display: inline;
 }
 
 
