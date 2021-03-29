@@ -351,6 +351,13 @@ input[id="review"]{
 	.margin_spacing{
 		margin-top:1rem;
 	}
+
+	#rate_star{
+	
+	margin-left: 2rem;
+	margin-top: 2rem;
+	grid-column-end: 8;
+}
 }
 
 
