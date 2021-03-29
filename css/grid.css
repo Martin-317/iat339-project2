@@ -659,8 +659,7 @@ footer{
 	}
 
 	main h3{
-		/*margin-top: 0;*/
-		/*font-size: 20px;*/
+		line-height: 1;
 	}
 
 	#sub_FAQ_shipping{
