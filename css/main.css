@@ -634,7 +634,7 @@ footer h5,footer h3,footer p{
 }
 
 #summary .co_subheader_selected img{
-	margin-right: 1rem;
+	margin-right: 2rem;
 	/* top: 0.5rem; */
 }
 
@@ -772,6 +772,7 @@ footer h5,footer h3,footer p{
 #summary p{
 	display: inline;
 }
+
 
 
 
