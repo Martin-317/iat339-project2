@@ -492,6 +492,10 @@ footer{
 		grid-column-start: 3;
 		grid-column-end: 5;		
 	}
+
+	#filter{
+		margin-left: 5%;
+	}
 }
 
 @media screen and (max-width:500px){
