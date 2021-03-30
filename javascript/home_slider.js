@@ -1,4 +1,4 @@
-var x = window.matchMedia("(max-width: 52rem)")
+var x = window.matchMedia("(max-width: 52rem)");
 var slideIndex = 1;
 var slideIndexLa = 1;
 

@@ -11,13 +11,15 @@ var paymentImg = document.getElementById('payment_img');
 var cardInfo = document.getElementById('card_info');
 
 //cart variable
-var cart = document.getElementById('cart');
+var cart = document.getElementById('cartAcc');
 var cartProd = document.getElementById('cart_product');
 
 //summary variable
-var summary = document.getElementById('summary');
+var summary = document.getElementById('summaryAcc');
 var summaryPrice = document.getElementById('summary_price');
 
+//query selector
+var x = window.matchMedia("(max-width: 54rem)");
 
 //filling shipping info and click next
 shipping_next.addEventListener("click", function(){
@@ -64,22 +66,44 @@ billing_next.addEventListener("click",function(){
 
 //cart&summary
 cart.addEventListener("click",function(){
-    if(cartProd.style.display === "block"){
-        cartProd.style.display = "none";
-    }
-    else{
-        cartProd.style.display = "block";
-    }
-    
+    if(x.matches){
+        if(cartProd.style.display === "block"){
+            cartProd.style.display = "none";
+        }
+        else{
+            cartProd.style.display = "block";
+        }
+    }    
 });
 
 
 summary.addEventListener("click", function(){
-    if(summaryPrice.style.display === "block"){
-        summaryPrice.style.display = "none";
+    if(x.matches){
+        if(summaryPrice.style.display === "block"){
+            summaryPrice.style.display = "none";
+        }
+        else{
+            summaryPrice.style.display = "block";
+        }
     }
-    else{
-        summaryPrice.style.display = "block";
-    }
+
 });
 
+//show car&summary function
+function showBlock(){
+    if(x.matches){
+        if(summaryPrice.style.display === "block" || cartProd.style.display === "block"){
+            cartProd.style.display = "none";   
+            summaryPrice.style.display = "none";
+        }
+    }
+    else{
+        if(summaryPrice.style.display === "none" || cartProd.style.display === "none"){
+            cartProd.style.display = "block";   
+            summaryPrice.style.display = "block";
+        }
+    }
+}
+
+//function call
+x.addListener(showBlock);

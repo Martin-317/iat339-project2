@@ -618,8 +618,8 @@ footer{
 .co_left_position{
 	grid-column-start: 2;
 	grid-column-end: 11;
-	border-style: solid;
-	border-color: #3A2E2A;
+	/* border-style: solid;
+	border-color: #3A2E2A; */
 }
 
 .co_right_position{
@@ -652,17 +652,37 @@ footer{
 	#cart{
 		grid-column-start: 1;
 		grid-column-end: 17;
+		margin: 0rem;
 	}
 	#summary{
 		grid-column-start: 1;
 		grid-column-end: 17;
 		grid-row-start: 2;
 		margin-bottom: 1rem;
+		margin-left: 0rem;
 	}
 
 	.co_left_position{
 		grid-column-start: 2;
 		grid-column-end: 16;
+	}
+
+	#cart_product{
+		display: none;
+	}
+	
+	#summary_price{
+		display: none;
+	}
+
+	.co_right_position{
+		grid-column-start: 1;
+		grid-column-end: 17;
+		grid-row-start: 1;
+	}
+
+	main{
+		margin-top: 0rem;
 	}
 
 }

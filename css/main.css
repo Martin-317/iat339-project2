@@ -250,6 +250,9 @@ ul,ol{
 	}
 	
 
+	#imglink{
+		margin-right: 0rem;
+	}
 }
 
 /*------------------------------------------line---------------------------------------------*/
@@ -779,12 +782,14 @@ footer h5,footer h3,footer p{
 }
 
 .co_sider_flex img{
+	height: unset;
 	/* width: 8rem; */
 }
 
 .co_sider_flex{
-	margin-top: 3rem;
+	margin-top: 2rem;
 	margin-left: 10%;
+	
 	display: flex;
 }
 
@@ -796,13 +801,18 @@ footer h5,footer h3,footer p{
 	display: inline;
 }
 
-#cart_product{
+#summaryTotal p{
+	font-size: 30px;
+	font-weight: bold;
+}
+
+/* #cart_product{
 	display: none;
 }
 
 #summary_price{
 	display: none;
-}
+} */
 
 
 /* #summary h2{
@@ -841,10 +851,13 @@ footer h5,footer h3,footer p{
 	border-bottom: solid;
 }
 
-
+#payment{
+	border-bottom:solid ;
+}
 
 .co_grid section{
 	border: solid;
+	border-bottom: none;
 }
 
 #FAQ_shipping p{

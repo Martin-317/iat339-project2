@@ -14,6 +14,14 @@ ul{
   margin-right: 12%;
 }
 
+.marginBot{
+  margin-bottom: 2rem;
+}
+
+body{
+  background-color: #efefef;
+}
+
 
 
 /*---------------------------------------------------NAVIGATION-------------------------------------------*/
