@@ -273,7 +273,7 @@ hr {
 
 .shop_line{
   border-left: 1px solid black;
-  height: 115rem;
+  height: 200%;
   position: absolute;
   left: 16rem;
   margin-left: 1rem;
@@ -495,6 +495,10 @@ textarea {
  background-color: white;
  margin-bottom: 2rem;
 
+}
+
+.contact-msg{
+	width:90%;
 }
 
 

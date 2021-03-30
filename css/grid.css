@@ -413,6 +413,10 @@ input[id="review"]{
 		margin-left: 25%;
 		width:50%;
 	}
+
+		main h3{
+		line-height: 1;
+	}
 }
 
 
@@ -719,9 +723,7 @@ footer{
 		margin-left: 4rem;
 	}
 
-	main h3{
-		line-height: 1;
-	}
+	
 
 	#sub_FAQ_shipping{
 		padding-top: 1rem;
