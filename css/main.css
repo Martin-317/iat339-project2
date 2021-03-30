@@ -127,6 +127,12 @@ img{
 	
 	margin-left:10rem}
 
+@media screen and (max-width:59em){
+	.floatRight{
+	
+	margin-left:0rem}
+}
+
 
 ul,ol{
 	font-family:Bitter, Arial, sans-serif;
