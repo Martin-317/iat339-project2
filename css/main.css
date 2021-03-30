@@ -847,6 +847,8 @@ footer h5,footer h3,footer p{
 	margin-top: 2rem;
 	margin-bottom: 1rem;
 	cursor: pointer;
+	background-color: transparent;
+	border: none;
 }
 #shippingEdit:hover{
 	color: #FFAF34;
@@ -864,6 +866,8 @@ footer h5,footer h3,footer p{
 	margin-top: 2rem;
 	margin-bottom: 1rem;
 	cursor: pointer;
+	background-color: transparent;
+	border: none;
 }
 #billingEdit:hover{
 	color: #FFAF34;
