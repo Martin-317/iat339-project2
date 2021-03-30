@@ -291,9 +291,19 @@ input[id="review"]{
 
 }
 
+	.popular-itemlist{
+	 display: block;
+  	width: 80%;
+	}
+
 }
 
-@media screen and (max-width:833px){
+@media screen and (max-width:900px){
+
+	.grid-container{
+	grid-column-gap:3.5rem;
+}
+
 	.block-2-half{
 		grid-column:1/9;
 		grid-column-end: 9;
@@ -373,7 +383,7 @@ input[id="review"]{
 
 	.popular-itemlist{
 	 display: block;
-  	width: 80%;
+  	width: 50%;
 	}
 
 	.margin_spacing{
@@ -387,6 +397,8 @@ input[id="review"]{
 	grid-column-end: 8;
 }
 }
+
+
 
 
 
