@@ -253,6 +253,10 @@ ul,ol{
 	#imglink{
 		margin-right: 0rem;
 	}
+
+	.dropdown-content a:hover {
+		background-color: unset;
+	  }
 }
 
 /*------------------------------------------line---------------------------------------------*/
