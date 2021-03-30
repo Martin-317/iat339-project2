@@ -1,17 +1,27 @@
 var x = window.matchMedia("(max-width: 52rem)");
 var slideIndex = 1;
 var slideIndexLa = 1;
+var prev = document.getElementsByClassName('prev');
+var next = document.getElementsByClassName('next');
 
 
 function topSeller(){
     if(x.matches){
         showSlides(slideIndex);
+        for(var i=0; i<prev.length;i++){
+            prev[i].style.display = "block";
+            next[i].style.display = "block";
+        } 
     }  
     else{
         var slides = document.getElementsByClassName("mySlides"); 
         for (i = 0; i < slides.length; i++) {
             slides[i].style.display = "block";  
-        }        
+        }    
+        for(var i=0; i<prev.length;i++){
+            prev[i].style.display = "none";
+            next[i].style.display = "none";
+        }    
     }
 }
 

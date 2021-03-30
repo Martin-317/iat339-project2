@@ -735,7 +735,11 @@ footer{
 	}
 
 	main h2{
-		font-size: 28px;
+		font-size: 1.5rem;
+	}
+
+	#topSeller figcaption{
+		font-size: 1rem;
 	}
 
 
@@ -862,5 +866,26 @@ footer{
 	  .bitter_bigger_header{
 		text-align: center;
 	}
+
+	#learnMore div{
+		display: inline;
+		margin-left: 1rem;
+		margin-right: 1rem;
+	}
+
+	.bitter_bigger_header{
+		font-size:1.5rem;
+	}
+
+	#hero_text h1{
+		font-size: 3rem;
+		margin-top: 2rem;
+	}
+
+	.hero_img{
+		margin-bottom: 0rem;
+	}
+	
+
 
 }

@@ -49,7 +49,7 @@ h2{
 }
 
 .bitter_bigger_header{
-	font-family:Bitter, Arial, sans-serif;
+	font-family:Oswald, Arial, sans-serif;
 	font-size:2.5rem;
 	font-weight: bold;
 	color:#3A2E2A;
@@ -963,7 +963,7 @@ main{
 }
 
 #topSeller{
-	margin-bottom: 15rem;
+	margin-bottom: 5rem;
 }
 
 .topSellerImg {
@@ -1039,7 +1039,7 @@ main{
 	background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
-   margin-bottom: 10rem;
+   margin-bottom: 5rem;
   
    /* Needed to position the navbar */
    position: relative;
@@ -1076,7 +1076,7 @@ main{
 }
 
 .prev:hover, .next:hover {
-	background-color: purple;
+	background-color: #FFAF34;
   }
 
 .slideshow-container {
@@ -1115,7 +1115,7 @@ main{
 }
 
 #latestArrival{
-	margin-bottom: 15rem;
+	margin-bottom: 5rem;
 }
 
 .latestArrivalImg {
