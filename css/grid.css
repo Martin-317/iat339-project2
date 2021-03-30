@@ -704,10 +704,9 @@ footer{
 }
 
 /*--------------------------------------------------Home----------------------------------------------------*/
-#topSeller{
+/* #topSeller{
 	display: grid;
 	grid-template-columns:repeat(3, 1fr);
-	/*grid-template-rows:5rem 1fr;*/	
 }
 
 #topSeller figure{
@@ -717,17 +716,17 @@ footer{
 #topSeller h3{
 	grid-column-start: 2;
 	text-align: center;
-}
+} */
 
 #learnMore{
 	display: grid;
 	grid-template-columns:repeat(2, 1fr);
 }
 
-#latestArrival{
+/* #latestArrival{
 	display: grid;
 	grid-template-columns:repeat(4, 1fr);
-	/*grid-template-rows:5rem 1fr;*/		
+	
 }
 
 #latestArrival figure{
@@ -738,7 +737,7 @@ footer{
 	grid-column-start: 2;
 	grid-column-end: 4;
 	text-align: center;
-}
+} */
 
 #aboutUs{
 	display: grid;

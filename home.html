@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Home Page</title>    
+	<title>Home Page</title>    
 	<link href="css/pattern.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
 	<link href="css/grid.css" rel="stylesheet">
@@ -13,7 +13,7 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Work+Sans">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bitter">
-
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
     <div class="hero_img" >
@@ -69,27 +69,35 @@
 
         <h2>Top Seller</h2>
         <section id="topSeller">
-            
-            <figure class="home_itemimg">
-            	<a href="ItemDetail_GruviRose.html">
-                <img src="img/itemimg_1.png" alt="img of a beer" width="250">
-            	</a>
-                <figcaption>Outbound(Pale)</figcaption>
-            </figure>
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
 
-            <figure class="home_itemimg">
-            	<a href="ItemDetail_GruviRose.html">
-                <img src="img/itemimg_3.png" alt="img of a beer" width="250">
-            	</a>
-                <figcaption>Gruvi Peach</figcaption>
-            </figure>
+			<div id="topSellerFigure" class="latestArrivalImg slideshow-container">
+				<figure id="topSellerFigure1" class="home_itemimg mySlides fade">
+					<a href="ItemDetail_GruviRose.html">
+					<img src="img/itemimg_1.png" alt="img of a beer" width="250">
+					</a>
+					<figcaption>Outbound(Pale)</figcaption>
+				</figure>
+	
+				<figure id="topSellerFigure2" class="home_itemimg mySlides fade">
+					<a href="ItemDetail_GruviRose.html">
+					<img src="img/itemimg_3.png" alt="img of a beer" width="250">
+					</a>
+					<figcaption>Gruvi Peach</figcaption>
+				</figure>
+	
+				<figure id="topSellerFigure3" class="home_itemimg mySlides fade">
+					<a href="ItemDetail_GruviRose.html">
+					<img src="img/itemimg_6.png" alt="img of a beer" width="250">
+					</a>
+					<figcaption>Run Wild</figcaption>
+				</figure>
+			</div>
 
-            <figure class="home_itemimg">
-            	<a href="ItemDetail_GruviRose.html">
-                <img src="img/itemimg_6.png" alt="img of a beer" width="250">
-           	 </a>
-                <figcaption>Run Wild</figcaption>
-            </figure>
+
+
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
         </section>
 
         <section id="learnMore">
@@ -111,27 +119,31 @@
 
         <h2>Latest Arrival</h2>
         <section id="latestArrival">
-            
-            <figure class="home_itemimg">
-                <img src="img/itemimg_1.png" alt="img of a beer" width="250">
-                <figcaption>Outbound</figcaption>
-            </figure>
+			<a class="prev" onclick="plusSlidesLa(-1)">&#10094;</a>
 
-            <figure class="home_itemimg">
-                <img src="img/itemimg_2.png" alt="img of a beer" width="250">
-                <figcaption>Two Roots</figcaption>
-            </figure>
+			<div id="latestArrivalFigure" class="topSellerImg slideshow-container">
+				<figure id="laImg1" class="home_itemimg mySlidesLa fade">
+					<img src="img/itemimg_1.png" alt="img of a beer" width="250">
+					<figcaption>Outbound</figcaption>
+				</figure>
+	
+				<figure id="laImg2" class="home_itemimg mySlidesLa fade">
+					<img src="img/itemimg_2.png" alt="img of a beer" width="250">
+					<figcaption>Two Roots</figcaption>
+				</figure>
+	
+				<figure id="laImg3" class="home_itemimg mySlidesLa fade">
+					<img src="img/itemimg_3.png" alt="img of a beer" width="250">
+					<figcaption>Gruvi Peach</figcaption>
+				</figure>
+	
+				<figure id="laImg4" class="home_itemimg mySlidesLa fade">
+					<img src="img/itemimg_4.png" alt="img of a beer" width="250">
+					<figcaption>Two Roots (Mango)</figcaption>
+				</figure>
+			</div>
 
-            <figure class="home_itemimg">
-                <img src="img/itemimg_3.png" alt="img of a beer" width="250">
-                <figcaption>Gruvi Peach</figcaption>
-            </figure>
-
-            <figure class="home_itemimg">
-                <img src="img/itemimg_4.png" alt="img of a beer" width="250">
-                <figcaption>Two Roots (Mango)</figcaption>
-            </figure>
-
+			<a class="next" onclick="plusSlidesLa(1)">&#10095;</a>
         </section>
 
         <section id="aboutUs">
@@ -201,9 +213,9 @@
 		</div>
 
 
-
 	</footer>
 	<script src="./javascript/app.js"></script>	
+	<script src="./javascript/home_slider.js"></script>
 </body>
 
 
