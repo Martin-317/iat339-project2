@@ -333,7 +333,7 @@ ul#infolist li {
 
 .item-image{
   opacity: 1;
-  margin-bottom: 1rem
+  margin-bottom: 1rem;
   width:80%;
   height: auto;
   transition: .5s ease;
