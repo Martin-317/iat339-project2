@@ -963,7 +963,7 @@ main{
 }
 
 #topSeller{
-	margin-bottom: 5rem;
+	margin-bottom: 10rem;
 }
 
 .topSellerImg {
@@ -983,7 +983,7 @@ main{
 
 
 #learnMore{
-	margin-bottom: 5rem;
+	margin-bottom: 10rem;
 }
 
 
@@ -1039,7 +1039,7 @@ main{
 	background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
-   margin-bottom: 5rem;
+   margin-bottom: 10rem;
   
    /* Needed to position the navbar */
    position: relative;
