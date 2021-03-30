@@ -927,10 +927,10 @@ footer h5,footer h3,footer p{
 	border-bottom: none;
 }
 
-#FAQ_shipping p{
+/* #FAQ_shipping p{
 	padding-left: 3rem;
 	width: 60%;
-} 
+}  */
 
 /* #FAQ_shipping div{
 	border-top: 1px solid;
@@ -955,10 +955,12 @@ footer h5,footer h3,footer p{
 
 .FAQ_sub h3{
 	margin-left: 15%;
-	margin-right: 4rem;
+	margin-right: 1rem;
 }
 .FAQ_sub p{
-	margin-left: 10rem;
+	margin-left: 20%;
+	margin-right: 2rem;
+	margin-top: 0rem;
 }
 
 #FAQ_return{
