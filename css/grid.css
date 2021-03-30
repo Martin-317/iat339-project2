@@ -719,6 +719,17 @@ footer{
 		margin-top: 0rem;
 	}
 
+	.flex_align_center{
+		display: unset;
+	}
+	
+	.comment{
+		margin-left: 0rem;
+		margin-top: 1rem;
+	}
+
+	
+
 }
 
 /*--------------------------------------------------FAQ----------------------------------------------------*/

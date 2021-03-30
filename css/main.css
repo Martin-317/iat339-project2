@@ -1212,3 +1212,8 @@ main{
 .margin_spacing{
 	margin-top:10rem;
 }
+
+.comment{
+	margin-left: 3rem;
+	font-weight: bold;
+}
