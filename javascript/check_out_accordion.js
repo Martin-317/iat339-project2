@@ -64,22 +64,22 @@ billing_next.addEventListener("click",function(){
 
 //cart&summary
 cart.addEventListener("click",function(){
-    if(cartProd.style.display == "none"){
-        cartProd.style.display = "block";
+    if(cartProd.style.display === "block"){
+        cartProd.style.display = "none";
     }
     else{
-        cartProd.style.display = "none";
+        cartProd.style.display = "block";
     }
     
 });
 
 
 summary.addEventListener("click", function(){
-    if(summaryPrice.style.display == "none"){
-        summaryPrice.style.display = "block";
+    if(summaryPrice.style.display === "block"){
+        summaryPrice.style.display = "none";
     }
     else{
-        summaryPrice.style.display = "none";
+        summaryPrice.style.display = "block";
     }
 });
 

@@ -773,7 +773,13 @@ footer h5,footer h3,footer p{
 	display: inline;
 }
 
+#cart_product{
+	display: none;
+}
 
+#summary_price{
+	display: none;
+}
 
 
 /* #summary h2{
