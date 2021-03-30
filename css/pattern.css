@@ -311,14 +311,14 @@ ul#infolist li {
 
 .quickbtn{
     background-color: Transparent;
-    color: #3A2E2A;
+    color: #FFAF34;
     font-weight: lighter;
     text-decoration: underline;
 }
 
 .quickbtn:hover{
 
-  color: #FFAF34;
+  color: #3A2E2A;
  
 }
 

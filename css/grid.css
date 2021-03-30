@@ -221,7 +221,7 @@ input[id="review"]{
 }
 
 .starposition{
-	grid-column:3/9;
+	grid-column:1/9;
 	grid-column-end: 9;
 	grid-row-start: 2;
 	margin-top: 1.5rem;
@@ -237,7 +237,7 @@ input[id="review"]{
 .card-row-container{
 	grid-column:1/9;
 	display:grid;
-	grid-template-columns:1fr 1fr 1fr;
+	grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
 	grid-column-gap:4rem;
 }
 
@@ -270,7 +270,7 @@ input[id="review"]{
 }
 
 /*Mobile Size*/
-@media screen and (max-width:414px){
+@media screen and (max-width:460px){
 .wrapper{
 	width:clamp(10rem, 80vw, 75rem);
 	margin: 0rem;
@@ -279,6 +279,12 @@ input[id="review"]{
 .grid-container{
 	grid-column-gap:3.5rem;
 }
+
+	.card-row-container{
+		grid-column:1/ span 3;
+		display:block;
+		grid-column-end: 9;
+	}
 
 #latestArrival figcaption{
 	font-size:1rem;
@@ -294,7 +300,10 @@ input[id="review"]{
 	.popular-itemlist{
 	 display: block;
   	width: 80%;
+
 	}
+
+
 
 }
 
@@ -327,6 +336,8 @@ input[id="review"]{
 		grid-column-start:2;
 		margin-top: 2rem;
 		grid-column-end: 9;
+		width: 60%;
+		margin-left: 20%;
 
 	}
 
@@ -336,9 +347,9 @@ input[id="review"]{
 	}
 
 	.card-row-container{
-		grid-column:1/ span 3;
+		/*grid-column:1/ span 3;*/
 		display:block;
-		grid-column-end: 9;
+		/*grid-column-end: 9;*/
 	}
 
 	.card-row-container2{
@@ -383,7 +394,8 @@ input[id="review"]{
 
 	.popular-itemlist{
 	 display: block;
-  	width: 50%;
+  	width: 60%;
+  	margin-left: 20%;
 	}
 
 	.margin_spacing{
@@ -396,6 +408,15 @@ input[id="review"]{
 	margin-top: 2rem;
 	grid-column-end: 8;
 }
+
+	#filter{
+		margin-left: 25%;
+		width:50%;
+	}
+
+		main h3{
+		line-height: 1;
+	}
 }
 
 
@@ -526,6 +547,16 @@ footer{
 	#filter{
 		margin-left: 5%;
 	}
+
+	.itemlist{
+		margin-left: 1%;
+	}
+
+	.popular-itemlist{
+		margin-left: 1%;
+	}
+
+
 }
 
 @media screen and (max-width:500px){
@@ -692,9 +723,7 @@ footer{
 		margin-left: 4rem;
 	}
 
-	main h3{
-		line-height: 1;
-	}
+	
 
 	#sub_FAQ_shipping{
 		padding-top: 1rem;
@@ -791,7 +820,7 @@ footer{
 
 	#hero_text h1{
 		text-align: center;
-		margin-bottom: 3rem;
+		margin-bottom: 1rem;
 	}
 
 	#hero_text a{

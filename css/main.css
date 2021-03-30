@@ -127,6 +127,12 @@ img{
 	
 	margin-left:10rem}
 
+@media screen and (max-width:59em){
+	.floatRight{
+	
+	margin-left:0rem}
+}
+
 
 ul,ol{
 	font-family:Bitter, Arial, sans-serif;
@@ -267,7 +273,7 @@ hr {
 
 .shop_line{
   border-left: 1px solid black;
-  height: 115rem;
+  height: 200%;
   position: absolute;
   left: 16rem;
   margin-left: 1rem;
@@ -489,6 +495,10 @@ textarea {
  background-color: white;
  margin-bottom: 2rem;
 
+}
+
+.contact-msg{
+	width:90%;
 }
 
 
@@ -979,11 +989,33 @@ main{
 }
 
 #hero_text p{
-	width: 45%;
+	width: 40%;
 	font-size: 1.5rem;
 	margin-bottom: 2rem;
 	line-height: 2rem;
 }
+
+#hero_text hr{
+	height: 0.3rem;
+	width:10rem;
+	background-color: #FFAF34;
+	margin-left: 0;
+}
+
+@media screen and (max-width:54em){
+	#hero_text hr{
+		margin-top: 1rem;
+		margin-left: 30%;
+	}
+
+
+	}
+
+#hero_text h1{
+	font-size: 4rem;
+	margin-top: 6rem;
+}
+
 
 .hero_img{
 	background-image: url("../img/hero_img2.png");
