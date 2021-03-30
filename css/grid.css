@@ -720,7 +720,7 @@ footer{
 	}
 
 	.flex_align_center{
-		display: unset;
+		/* display: unset; */
 	}
 	
 	.comment{
@@ -781,6 +781,10 @@ footer{
 
 	main h2{
 		font-size: 1.5rem;
+	}
+
+	.FAQ_sub h3{
+		font-size: 1rem;
 	}
 
 	#topSeller figcaption{
