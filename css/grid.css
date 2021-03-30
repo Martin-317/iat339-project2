@@ -241,6 +241,13 @@ input[id="review"]{
 	grid-column-gap:4rem;
 }
 
+.item-detail-container{
+	grid-column:1/9;
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-column-gap:4rem;
+}
+
 .style-guide-grid-demo{
 	grid-column:1/9;
 	display:grid;
@@ -281,6 +288,12 @@ input[id="review"]{
 }
 
 	.card-row-container{
+		grid-column:1/ span 3;
+		display:block;
+		grid-column-end: 9;
+	}
+
+	.item-detail-container{
 		grid-column:1/ span 3;
 		display:block;
 		grid-column-end: 9;
@@ -365,6 +378,7 @@ input[id="review"]{
 	.productname-position{
 	grid-column-start:1;
 	grid-column-end:6;
+	font-size:2.5rem;
 }
 
 
