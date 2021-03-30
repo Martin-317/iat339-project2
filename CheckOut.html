@@ -60,8 +60,12 @@
         <div class="co_left_position">
             <section id="shipping" >
                 <div class="co_subheader_selected co_subheader" >
-                    <h2>1. Shipping</h2>
-                    <img src="img/dropdown_icon_1.png" alt="drop down icon">    
+                    <div>
+                        <img id="shippingCheck" src="img/check.png" alt="check icon" class="headerImg" >
+                        <h2 id="shippingTitle">1. Shipping</h2>
+                    </div>
+
+                    <img id="shippingDrop" src="img/dropdown_icon_1.png" alt="drop down icon">    
                 </div>
     
                 <div class="two_columns_grid" id="co_shipping_info">   
@@ -131,13 +135,19 @@
                     <button class="CO_button" id="shipping_button">Next</button>
                 </div>
     
-                
+                <div class="CO_button_flex">
+                    <a href="" id="shippingEdit">Edit</a>
+                </div>
+  
             </section>
     
             <section id="billing">
-                <div class="co_subheader_unselected co_subheader">
-                    <h2>2. Billing</h2>
-                    <img src="img/dropdown_icon_2.png" alt="drop down icon">    
+                <div id="billingHeader" class="co_subheader_unselected co_subheader">
+                    <div>
+                        <img id="billingCheck" src="img/check.png" alt="check icon" class="headerImg" >
+                        <h2 id="billingTitle">2. Billing</h2>
+                    </div>
+                    <img id="billingDrop" src="img/dropdown_icon_2.png" alt="drop down icon">    
                 </div>
     
                 <form action="" id="billing_ckeck">
@@ -204,7 +214,6 @@
                     <p class="finished_shipping_left">V5A 1S6</p>
                     <p class="finished_shipping_right" id="finished_phone_num">(123) 456 789</p>
                     <p class="finished_shipping_right" id="finished_e_mail">E-mail: abcde@gmail.com</p>
-    
                 </div>
     
                 <div class="CO_button_flex">
@@ -215,9 +224,9 @@
             </section>
     
             <section id="payment">
-                <div class="co_subheader_unselected co_subheader">
+                <div id="paymentHeader" class="co_subheader_unselected co_subheader">
                     <h2>3. Payment</h2>
-                    <img src="img/dropdown_icon_2.png" alt="drop down icon">    
+                    <img id="paymentDrop" src="img/dropdown_icon_2.png" alt="drop down icon">    
                 </div>
     
                 <div id="payment_info" >
@@ -271,7 +280,7 @@
                     <div class="co_sider_flex">
                         <img width="100" src="img/itemimg_6.png" alt="an image of a non-alcohol beer">
                         <div>
-                            <p><strong>Athletic Non-Alcohlic</strong></p>
+                            <p>Athletic Non-Alcohlic</p>
                             <p>Volume: 330ml</p>
                             <p>Quantity: 3</p>
                         </div>
@@ -281,7 +290,7 @@
                     <div class="co_sider_flex marginBot">
                         <img width="100" src="img/itemimg_10.png" alt="an image of a non-alcohol beer">
                         <div>
-                            <p><strong>Gruvi Rose</strong></p>
+                            <p>Gruvi Rose</p>
                             <p>Volume: 330ml</p>
                             <p>Quantity: 3</p>
                         </div>

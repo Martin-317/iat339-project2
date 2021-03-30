@@ -649,6 +649,7 @@ footer{
 	grid-row-start: 1;
 	border-style: solid;
 	border-color: #3A2E2A;
+	cursor: pointer;
 }
 
 #summary{
@@ -657,6 +658,7 @@ footer{
 	grid-row-start: 2;
 	border-style: solid;
 	border-color: #3A2E2A;
+	cursor: pointer;
 }
 
 .two_columns_grid{
@@ -677,6 +679,7 @@ footer{
 		grid-row-start: 2;
 		margin-bottom: 1rem;
 		margin-left: 0rem;
+		margin-top: 0.5rem;
 	}
 
 	.co_left_position{

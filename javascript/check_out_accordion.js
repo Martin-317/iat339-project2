@@ -1,6 +1,8 @@
+//button
 var shipping_next = document.getElementById('shipping_button');
-var coNext = document.getElementsByClassName('CO_button');
+var coNext = document.getElementById('billing_button');
 var finished_shipping_info = document.getElementById('finished_shipping');
+
 //billing variable
 var billing_form = document.getElementById("co_billing_info");
 var billing_check = document.getElementById('billing_ckeck');
@@ -20,6 +22,24 @@ var summaryPrice = document.getElementById('summary_price');
 
 //query selector
 var x = window.matchMedia("(max-width: 54rem)");
+
+//shift variable
+//shipping
+var shippingCheck = document.getElementById('shippingCheck');
+var shippingTitle = document.getElementById('shippingTitle');
+var shippingDrop = document.getElementById('shippingDrop');
+var shippingEdit = document.getElementById('shippingEdit');
+
+//billing
+var billingHeader = document.getElementById('billingHeader');
+var billingCheck = document.getElementById('billingCheck');
+var billingTitle = document.getElementById('billingTitle');
+var billingDrop = document.getElementById('billingDrop');
+
+//payment
+var paymentHeader = document.getElementById('paymentHeader');
+var paymentDrop = document.getElementById('paymentDrop');
+
 
 //filling shipping info and click next
 shipping_next.addEventListener("click", function(){
@@ -104,6 +124,43 @@ function showBlock(){
         }
     }
 }
+
+//image/text change
+//shipping
+
+shipping_next.addEventListener('click', function(){
+    shippingCheck.style.display = "inline";
+    shippingTitle.innerHTML = "Shipping";
+    //billing part
+    billingHeader.classList.remove('co_subheader_unselected');
+    billingHeader.classList.add('co_subheader_selected');
+    billingDrop.src = "img/dropdown_icon_1.png";
+    //edite
+    shippingEdit.style.display = "inline-block";
+});
+
+//billing
+shipping_next.addEventListener('click', function(){
+
+});
+
+coNext.addEventListener('click', function(){
+    billingCheck.style.display = "inline";
+    billingTitle.innerHTML = "Billing";
+    //payment part
+    paymentHeader.classList.remove('co_subheader_unselected');
+    paymentHeader.classList.add('co_subheader_selected');
+    paymentDrop.src = "img/dropdown_icon_1.png";
+    shippingDrop.src = "img/dropdown_icon_horizontal_1.png";   
+    billingDrop.src = "img/dropdown_icon_horizontal_1.png";
+    //edit
+    shippingEdit.style.display = ('none');
+});
+
+//shipping edit button
+shippingEdit.addEventListener('click', function(){
+    co_billing_info.style.display = "grid";
+});
 
 //function call
 x.addListener(showBlock);

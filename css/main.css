@@ -665,16 +665,22 @@ footer h5,footer h3,footer p{
 }
 
 .CO_button{
+	border: solid;
 	display: inline-block;
 	text-decoration: none;
-	background-color: #FFAF34;
+	background-color: #3A2E2A;
 	color:white;
 	padding: 0.5rem 4rem 0.5rem 4rem;
 	border-radius: 0.5rem;
 	position: relative;
 	margin-top: 2rem;
 	margin-bottom: 1rem;
+	cursor: pointer;
+}
 
+.CO_button:hover{
+	background-color: white;
+	color: #3A2E2A;
 }
 
 .CO_button_flex{
@@ -763,9 +769,10 @@ footer h5,footer h3,footer p{
 }
 
 #card_button{
+	border: solid;
 	display: inline-block;
 	text-decoration: none;
-	background-color: #FFAF34;
+	background-color: #3A2E2A;
 	color:white;
 	padding: 0.5rem 4rem 0.5rem 4rem;
 	border-radius: 0.5rem;
@@ -773,6 +780,11 @@ footer h5,footer h3,footer p{
 	margin-top: 2rem;
 	margin-bottom: 1rem;
 	margin-left: 50%;
+}
+
+#card_button:hover{
+	background-color: white;
+	color: #3A2E2A;
 }
 
 .co_subheader{
@@ -804,6 +816,36 @@ footer h5,footer h3,footer p{
 #summaryTotal p{
 	font-size: 30px;
 	font-weight: bold;
+}
+
+.headerImg{
+	margin-left: 1rem;
+	display: none;
+}
+
+#billing .co_subheader_selected{
+	background-color: #3A2E2A;
+}
+
+#payment .co_subheader_selected{
+	background-color: #3A2E2A;
+}
+
+#shippingEdit{
+	font-weight: bold;
+	font-size: 1.5rem;
+	display: none;
+	text-decoration: none;
+	color:#ffae34b4;
+	/* padding: 0.5rem 4rem 0.5rem 4rem; */
+	/* border-radius: 0.5rem; */
+	position: relative;
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+	cursor: pointer;
+}
+#shippingEdit:hover{
+	color: #FFAF34;
 }
 
 /* #cart_product{
@@ -875,6 +917,7 @@ footer h5,footer h3,footer p{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	cursor: pointer;
 }
 
 .FAQ_accordion img{
@@ -885,9 +928,12 @@ footer h5,footer h3,footer p{
 	display: none;
 }
 
-.FAQ_sub h3, .FAQ_sub p{
-	margin-left: 8rem;
+.FAQ_sub h3{
+	margin-left: 15%;
 	margin-right: 4rem;
+}
+.FAQ_sub p{
+	margin-left: 10rem;
 }
 
 #FAQ_return{
@@ -1124,6 +1170,9 @@ main{
 	align-items: center;	
 }
 
+#aboutUs img, #learnMore img{
+	width: 90%;
+}
 
 /*--------------------------------------------------QA----------------------------------------------------*/
 .active, .reviewButton:hover{
