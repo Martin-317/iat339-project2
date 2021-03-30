@@ -378,6 +378,7 @@ input[id="review"]{
 	.productname-position{
 	grid-column-start:1;
 	grid-column-end:6;
+	font-size:2.5rem;
 }
 
 
