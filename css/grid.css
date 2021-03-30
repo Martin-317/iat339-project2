@@ -528,6 +528,16 @@ input[id="review"]{
 }
 }
 
+@media screen and (max-width:20rem){
+	.item-list-grid-container{
+	width:15rem;
+}
+
+#filter{
+	width:70%;
+	}
+}
+
 /*--------------------------------------------------footer----------------------------------------------------*/
 footer{
 	width: 100%;
