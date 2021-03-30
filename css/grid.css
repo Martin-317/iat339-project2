@@ -417,9 +417,16 @@ input[id="review"]{
 		main h3{
 		line-height: 1;
 	}
+
+
 }
 
-
+@media screen and (max-width:965px){
+		.second-sub-grid{
+	margin-left: -3rem;
+	width: 20rem;
+}
+}
 
 
 
