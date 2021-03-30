@@ -606,7 +606,7 @@ footer h5,footer h3,footer p{
 
 .co_subheader_unselected img{
 	position:relative;
-	top:1rem;
+	/* top:1rem; */
 }
 
 
@@ -845,6 +845,23 @@ footer h5,footer h3,footer p{
 	cursor: pointer;
 }
 #shippingEdit:hover{
+	color: #FFAF34;
+}
+
+#billingEdit{
+	font-weight: bold;
+	font-size: 1.5rem;
+	display: none;
+	text-decoration: none;
+	color:#ffae34b4;
+	/* padding: 0.5rem 4rem 0.5rem 4rem; */
+	/* border-radius: 0.5rem; */
+	position: relative;
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+	cursor: pointer;
+}
+#billingEdit:hover{
 	color: #FFAF34;
 }
 
