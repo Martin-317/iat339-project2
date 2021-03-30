@@ -480,11 +480,7 @@ border: 1px solid  #E4E4E4;}
 .popup {
   position: relative;
   display: inline-block;
-  /*cursor: pointer;*/
-  /*-webkit-user-select: none;*/
-  /*-moz-user-select: none;*/
-  /*-ms-user-select: none;*/
- /* user-select: none;*/
+
 }
 
 /* The actual popup */
@@ -500,7 +496,7 @@ border: 1px solid  #E4E4E4;}
   z-index: 1;
   bottom: 125%;
   margin-bottom: 0.5rem;
-  margin-left: -8.5rem;
+  margin-left: -6rem;
   line-height: 230%;
 }
 
